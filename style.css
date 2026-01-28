@@ -1,0 +1,33 @@
+:root {
+    --primary: #2c3e50;
+    --accent: #3498db;
+    --danger: #e74c3c;
+    --bg: #f8f9fa;
+}
+
+body { font-family: sans-serif; margin: 0; background: var(--bg); padding-bottom: 80px; }
+header { background: white; padding: 1rem; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 10; }
+.hidden { display: none !important; }
+
+/* Checklist Styling */
+#checklist-container { padding: 15px; }
+.category-section { margin-bottom: 20px; background: white; border-radius: 8px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.sin-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eee; }
+input[type="checkbox"] { width: 20px; height: 20px; margin-top: 3px; }
+
+/* Fixed Footer */
+.footer-controls {
+    position: fixed; bottom: 0; width: 100%; background: white;
+    display: flex; padding: 15px; box-sizing: border-box; gap: 10px;
+    border-top: 1px solid #ddd; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+button { flex: 1; padding: 12px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+.btn-submit { background: var(--accent); color: white; }
+.btn-reset { background: #eee; color: #333; }
+
+/* Print Logic */
+@media print {
+    header, .footer-controls, .summary-actions, #checklist-view { display: none !important; }
+    #summary-view { display: block !important; padding: 0; }
+}

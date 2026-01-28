@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination of Conscience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="ui-title">Examination of Conscience</h1>
+        <select id="langSwitcher">
+            <option value="en">English</option>
+            <option value="tg">Tagalog</option>
+            <option value="bs">Bisaya</option>
+        </select>
+    </header>
+
+    <main id="checklist-view">
+        <div id="checklist-container"></div>
+    </main>
+
+    <main id="summary-view" class="hidden">
+        <h2 id="summary-title">My Confession List</h2>
+        <div id="summary-content"></div>
+        <div class="summary-actions">
+            <button onclick="window.print()" class="btn-secondary">Print / PDF</button>
+            <button onclick="downloadTextFile()" class="btn-secondary">Download .txt</button>
+            <button onclick="backToChecklist()" class="btn-primary">Edit List</button>
+        </div>
+    </main>
+
+    <footer class="footer-controls">
+        <button id="resetBtn" class="btn-reset">Reset</button>
+        <button id="submitBtn" class="btn-submit">Prepare Confession</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
