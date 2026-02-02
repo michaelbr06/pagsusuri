@@ -26,6 +26,8 @@ header {
 }
 .container {
   padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .category-section {
   background: white;
@@ -46,7 +48,6 @@ header {
   border-bottom: none;
 }
 input[type="checkbox"] {
-  -webkit-appearance: none; /* Optional: for custom styling */
   appearance: none;
   background-color: #fff;
   margin: 0;
