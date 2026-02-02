@@ -13,6 +13,10 @@ const translations = {
         items: [
           { id: "s1", text: "I have neglected my daily prayers." },
           { id: "s2", text: "I have put money or work before God." },
+          {
+            id: "s3",
+            text: "I have performed my duties towards God reluctantly or grudgingly.",
+          },
         ],
       },
     ],
@@ -43,7 +47,7 @@ const translations = {
   },
   bs: {
     ui: {
-      title: "Pagsusi",
+      title: "Pagsusi sa Tanlag",
       prepareBtn: "Andama ang Kompisal",
       resetBtn: "I-reset",
       summaryTitle: "Akong Kompisal",
