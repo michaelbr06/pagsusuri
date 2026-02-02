@@ -1,41 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Examination of Conscience</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1 id="ui-title">Examination of Conscience</h1>
-        <select id="langSwitcher">
-            <option value="en">English</option>
-            <option value="tg">Tagalog</option>
-            <option value="bs">Bisaya</option>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@hotwired/stimulus/dist/stimulus.umd.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./sw.js")
+          .then(() => console.log("Offline mode enabled."));
+      }
+    </script>
+  </head>
+  <body>
+    <div data-controller="confession" data-confession-lang-value="en">
+      <header>
+        <h2
+          data-confession-target="uiTitle"
+          style="margin: 0; font-size: 1.1rem"
+        ></h2>
+        <select
+          data-action="change->confession#switchLanguage"
+          style="padding: 5px; border-radius: 4px"
+        >
+          <option value="en">English</option>
+          <option value="tg">Tagalog</option>
+          <option value="bs">Bisaya</option>
         </select>
-    </header>
+      </header>
 
-    <main id="checklist-view">
-        <div id="checklist-container"></div>
-    </main>
-
-    <main id="summary-view" class="hidden">
-        <h2 id="summary-title">My Confession List</h2>
-        <div id="summary-content"></div>
-        <div class="summary-actions">
-            <button onclick="window.print()" class="btn-secondary">Print / PDF</button>
-            <button onclick="downloadTextFile()" class="btn-secondary">Download .txt</button>
-            <button onclick="backToChecklist()" class="btn-primary">Edit List</button>
+      <main class="container">
+        <div data-confession-target="checklistView">
+          <div data-confession-target="container"></div>
         </div>
-    </main>
 
-    <footer class="footer-controls">
-        <button id="resetBtn" class="btn-reset">Reset</button>
-        <button id="submitBtn" class="btn-submit">Prepare Confession</button>
-    </footer>
+        <div data-confession-target="summaryView" class="hidden">
+          <h2 data-confession-target="summaryTitle"></h2>
+          <div data-confession-target="summaryContent"></div>
+          <div class="summary-actions">
+            <button data-action="click->confession#download" class="btn-submit">
+              Download .txt
+            </button>
+            <button
+              data-action="click->confession#toggleView"
+              class="btn-reset"
+            >
+              Edit List
+            </button>
+          </div>
+        </div>
+      </main>
 
-    <script src="script.js"></script>
-</body>
+      <footer class="footer-controls" data-confession-target="footer">
+        <button
+          data-action="click->confession#reset"
+          data-confession-target="resetBtn"
+          class="btn-reset"
+        ></button>
+        <button
+          data-action="click->confession#submit"
+          data-confession-target="submitBtn"
+          class="btn-submit"
+        ></button>
+      </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
 </html>
