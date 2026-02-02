@@ -46,9 +46,35 @@ header {
   border-bottom: none;
 }
 input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
+  -webkit-appearance: none; /* Optional: for custom styling */
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: var(--accent);
+  width: 1.5rem; /* Larger size */
+  height: 1.5rem;
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  display: grid;
+  place-content: center;
   cursor: pointer;
+}
+
+/* This creates the "Check" mark when selected */
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65rem;
+  height: 0.65rem;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--accent);
+  background-color: CanvasText;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
 }
 
 .footer-controls {
