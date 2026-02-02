@@ -1,52 +1,41 @@
-// Sample Data Structure (Usually loaded from separate JSON files)
 const translations = {
   en: {
     ui: {
       title: "Examination of Conscience",
-      submit: "Prepare Confession",
-      reset: "Reset List",
+      prepareBtn: "Prepare Confession",
+      resetBtn: "Reset",
+      summaryTitle: "My Confession List",
     },
     categories: [
       {
-        id: "cmd1",
-        header: "First Commandment",
+        id: "c1",
+        header: "1st Commandment",
         items: [
-          { id: "s1", text: "I have doubted or denied the existence of God." },
-          { id: "s2", text: "I have put other things before God." },
+          { id: "s1", text: "I have neglected my daily prayers." },
+          { id: "s2", text: "I have put money or work before God." },
         ],
-      },
-      {
-        id: "cmd2",
-        header: "Second Commandment",
-        items: [{ id: "s3", text: "I have used the name of God in vain." }],
       },
     ],
   },
   tg: {
     ui: {
-      title: "Pagsusuri ng Budhi",
-      submit: "Ihanda ang Kumpisal",
-      reset: "Burahin ang Listahan",
+      title: "Pagsusuri ng Konsensya",
+      prepareBtn: "Ihanda ang Kumpisal",
+      resetBtn: "Burahin",
+      summaryTitle: "Aking Kumpisal",
     },
     categories: [
       {
-        id: "cmd1",
+        id: "c1",
         header: "Unang Utos",
         items: [
           {
             id: "s1",
-            text: "Nag-alinlangan ako o itinanggi ko ang pagkakaroon ng Diyos.",
+            text: "Nakakalimot ako sa aking pang-araw-araw na dasal.",
           },
-          { id: "s2", text: "Inuna ko ang ibang bagay kaysa sa Diyos." },
-        ],
-      },
-      {
-        id: "cmd2",
-        header: "Ikalawang Utos",
-        items: [
           {
-            id: "s3",
-            text: "Ginamit ko ang ngalan ng Diyos sa walang kabuluhan.",
+            id: "s2",
+            text: "Inuna ko ang pera o trabaho kaysa sa Diyos.",
           },
         ],
       },
@@ -54,29 +43,23 @@ const translations = {
   },
   bs: {
     ui: {
-      title: "Pagsusi sa Tanlag",
-      submit: "Andama ang Kompisal",
-      reset: "I-reset ang Listahan",
+      title: "Pagsusi",
+      prepareBtn: "Andama ang Kompisal",
+      resetBtn: "I-reset",
+      summaryTitle: "Akong Kompisal",
     },
     categories: [
       {
-        id: "cmd1",
+        id: "c1",
         header: "Unang Sugo",
         items: [
           {
             id: "s1",
-            text: "Nagduhaduha ko o naggahom-gahom sa paglimod sa presensya sa Dios.",
+            text: "Nakalimot ko sa akong inadlaw-adlaw nga pag-ampo.",
           },
-          { id: "s2", text: "Gipauna nako ang ubang butang kaysa sa Dios." },
-        ],
-      },
-      {
-        id: "cmd2",
-        header: "Ikaduhang Sugo",
-        items: [
           {
-            id: "s3",
-            text: "Gilitok nako ang ngalan sa Dios sa walay kapuslanan.",
+            id: "s2",
+            text: "Gipalabi nako ang kwarta o trabaho kaysa sa Dios.",
           },
         ],
       },
@@ -84,124 +67,121 @@ const translations = {
   },
 };
 
-let currentLang = "en";
-let userSelections = {}; // Key: ID, Value: Boolean
+const application = Stimulus.Application.start();
 
-const container = document.getElementById("checklist-container");
-const langSwitcher = document.getElementById("langSwitcher");
+application.register(
+  "confession",
+  class extends Stimulus.Controller {
+    static targets = [
+      "container",
+      "uiTitle",
+      "submitBtn",
+      "resetBtn",
+      "checklistView",
+      "summaryView",
+      "summaryContent",
+      "summaryTitle",
+      "footer",
+    ];
+    static values = { lang: String, selections: Object };
 
-// Render the Checklist
-function render() {
-  const data = translations[currentLang];
-  document.getElementById("ui-title").innerText = data.ui.title;
-  container.innerHTML = data.categories
-    .map(
-      (cat) => `
-        <div class="category-section">
-            <h3>${cat.header}</h3>
-            ${cat.items
-              .map(
-                (item) => `
-                <label class="sin-item">
-                    <input type="checkbox" data-id="${item.id}" ${userSelections[item.id] ? "checked" : ""} class="sin-checkbox">
-                    <span>${item.text}</span>
-                </label>
-            `,
-              )
-              .join("")}
-        </div>
-    `,
-    )
-    .join("");
-}
-
-// Track changes
-document.addEventListener("change", (e) => {
-  if (e.target.classList.contains("sin-checkbox")) {
-    userSelections[e.target.dataset.id] = e.target.checked;
-  }
-  if (e.target === langSwitcher) {
-    currentLang = e.target.value;
-    render();
-  }
-});
-
-// Prepare Summary
-document.getElementById("submitBtn").onclick = () => {
-  const activeData = translations[currentLang];
-  const selectedText = [];
-  activeData.categories.forEach((cat) => {
-    cat.items.forEach((item) => {
-      if (userSelections[item.id]) selectedText.push(item.text);
-    });
-  });
-
-  if (selectedText.length === 0) return alert("Select at least one.");
-
-  document.getElementById("summary-content").innerHTML =
-    `<ul>${selectedText.map((t) => `<li>${t}</li>`).join("")}</ul>`;
-  document.getElementById("checklist-view").classList.add("hidden");
-  document.getElementById("summary-view").classList.remove("hidden");
-  document.querySelector(".footer-controls").classList.add("hidden");
-};
-
-// Reset
-document.getElementById("resetBtn").onclick = () => {
-  if (confirm("Reset all?")) {
-    userSelections = {};
-    render();
-  }
-};
-
-function backToChecklist() {
-  document.getElementById("summary-view").classList.add("hidden");
-  document.getElementById("checklist-view").classList.remove("hidden");
-  document.querySelector(".footer-controls").classList.remove("hidden");
-}
-
-// Download Logic
-function downloadTextFile() {
-  const activeData = translations[currentLang];
-  let content = `--- ${activeData.ui.title.toUpperCase()} ---\n`;
-  content += `Date: ${new Date().toLocaleDateString()}\n\n`;
-
-  let hasSelection = false;
-
-  activeData.categories.forEach((cat) => {
-    // Filter items in this category that the user checked
-    const selectedItems = cat.items.filter(
-      (item) => userSelections[item.id] === true,
-    );
-
-    if (selectedItems.length > 0) {
-      hasSelection = true;
-      content += `[ ${cat.header} ]\n`; // Add the Commandment/Category header
-      selectedItems.forEach((item) => {
-        content += `- ${item.text}\n`; // Add the specific sin
-      });
-      content += `\n`;
+    connect() {
+      this.selectionsValue = {};
+      this.langValue = "en";
+      this.render();
     }
-  });
 
-  if (!hasSelection) {
-    alert("No items selected to download.");
-    return;
-  }
+    switchLanguage(event) {
+      this.langValue = event.target.value;
+      this.render();
+    }
 
-  content += `\n"Lord, I am sorry for these and all my sins."`;
+    toggleSin(event) {
+      const id = event.target.dataset.id;
+      this.selectionsValue = {
+        ...this.selectionsValue,
+        [id]: event.target.checked,
+      };
+    }
 
-  // Create the downloadable file
-  const blob = new Blob([content], { type: "text/plain" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `Confession_${currentLang}_${new Date().toISOString().slice(0, 10)}.txt`;
-  document.body.appendChild(a);
-  a.click();
+    render() {
+      const data = translations[this.langValue];
+      this.uiTitleTarget.innerText = data.ui.title;
+      this.submitBtnTarget.innerText = data.ui.prepareBtn;
+      this.resetBtnTarget.innerText = data.ui.resetBtn;
+      this.summaryTitleTarget.innerText = data.ui.summaryTitle;
 
-  // Clean up
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
+      this.containerTarget.innerHTML = data.categories
+        .map(
+          (cat) => `
+                    <div class="category-section">
+                        <h3>${cat.header}</h3>
+                        ${cat.items
+                          .map(
+                            (item) => `
+                            <label class="sin-item">
+                                <input type="checkbox" data-id="${item.id}" 
+                                       data-action="change->confession#toggleSin"
+                                       ${this.selectionsValue[item.id] ? "checked" : ""}>
+                                <span>${item.text}</span>
+                            </label>
+                        `,
+                          )
+                          .join("")}
+                    </div>
+                `,
+        )
+        .join("");
+    }
 
-render(); // Initial Load
+    submit() {
+      const data = translations[this.langValue];
+      let listHtml = "<ul>";
+      let count = 0;
+      data.categories.forEach((cat) => {
+        cat.items.forEach((item) => {
+          if (this.selectionsValue[item.id]) {
+            listHtml += `<li>${item.text}</li>`;
+            count++;
+          }
+        });
+      });
+      listHtml += "</ul>";
+
+      if (count === 0) return alert("Select at least one first.");
+
+      this.summaryContentTarget.innerHTML = listHtml;
+      this.toggleView();
+    }
+
+    toggleView() {
+      this.checklistViewTarget.classList.toggle("hidden");
+      this.summaryViewTarget.classList.toggle("hidden");
+      this.footerTarget.classList.toggle("hidden");
+      window.scrollTo(0, 0);
+    }
+
+    reset() {
+      if (confirm("Clear all selections?")) {
+        this.selectionsValue = {};
+        this.render();
+      }
+    }
+
+    download() {
+      const data = translations[this.langValue];
+      let text = `${data.ui.summaryTitle}\n\n`;
+      data.categories.forEach((cat) => {
+        cat.items.forEach((item) => {
+          if (this.selectionsValue[item.id]) text += `- ${item.text}\n`;
+        });
+      });
+      const blob = new Blob([text], { type: "text/plain" });
+      const a = Object.assign(document.createElement("a"), {
+        href: URL.createObjectURL(blob),
+        download: "confession.txt",
+      });
+      a.click();
+    }
+  },
+);
