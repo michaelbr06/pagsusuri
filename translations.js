@@ -1,4 +1,4 @@
-const translations = {
+export const translations = {
   en: {
     ui: {
       title: "Examination of Conscience",
