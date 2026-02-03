@@ -1,4 +1,5 @@
 export const translations = {
+  // English Translation
   en: {
     ui: {
       title: "Examination of Conscience",
@@ -42,6 +43,73 @@ export const translations = {
           {
             id: "s10",
             text: "I committed the sin of sacrilege by profaning a sacred person, place, or thing.",
+          },
+        ],
+      },
+
+      {
+        id: "c2",
+        header:
+          "2nd Commandment — You shall not take the name of the LORD your God in vain.",
+        items: [
+          {
+            id: "s1",
+            text: "I failed to try my best to fulfill the promises and resolutions I made to God.",
+          },
+          {
+            id: "s2",
+            text: "I used the name of God in a mocking, joking, or angry manner.",
+          },
+          {
+            id: "s3",
+            text: "I used the name of the Blessed Virgin Mary or the saints in an irreverent or mocking manner.",
+          },
+          {
+            id: "s4",
+            text: "I was a sponsor in baptism or ceremonies outside the Catholic Church.",
+          },
+          {
+            id: "s5",
+            text: "I told a lie under oath.",
+          },
+          {
+            id: "s6",
+            text: "I broke my private or public vows.",
+          },
+        ],
+      },
+
+      {
+        id: "c2",
+        header: "3rd Commandment — Remember to keep holy the LORD's Day.",
+        items: [
+          {
+            id: "s1",
+            text: "I missed Mass on a Sunday or a Holy Day of Obligation.",
+          },
+          {
+            id: "s2",
+            text: "I allowed myself to be distracted during Mass by not paying attention or looking around.",
+          },
+          {
+            id: "s3",
+            text: "I arrived at Mass so late that I failed to fulfill my Sunday obligation.",
+          },
+          {
+            id: "s4",
+            text: "I misbehaved or maintained improper posture or dress in church.",
+          },
+          {
+            id: "s5",
+            text: "I failed to help the Church in her necessities to the extent of my ability.",
+          },
+          {
+            id: "s6",
+            text: "I did not fast or abstain on the days prescribed by the Church.",
+          },
+          {
+            id: "s7",
+            text: "I performed work or business that inhibited worship or the proper relaxation of the Lord’s Day.",
           },
         ],
       },
