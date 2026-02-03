@@ -47,6 +47,8 @@ export const translations = {
       },
     ],
   },
+
+  // Tagalog Translation
   tg: {
     ui: {
       title: "Pagsusuri ng Konsensya",
@@ -71,6 +73,8 @@ export const translations = {
       },
     ],
   },
+
+  // Bisaya Translation
   bs: {
     ui: {
       title: "Pagsusi sa Tanlag",
