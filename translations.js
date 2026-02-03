@@ -217,6 +217,62 @@ export const translations = {
           },
         ],
       },
+
+      {
+        id: "c6-9",
+        header:
+          "6th and 9th Commandment - You shall not commit adultery and covet your neighbor's wife",
+        items: [
+          {
+            id: "c69-s1",
+            text: "I committed impure acts, either alone or with someone else.",
+          },
+          {
+            id: "c69-s2",
+            text: "I consented to evil desires against the virtue of purity.",
+          },
+          {
+            id: "c69-s3",
+            text: "I engaged in acts involving passion, such as 'petting,' 'necking,' or prolonged embraces.",
+          },
+          {
+            id: "c69-s4",
+            text: "I engaged in or started impure conversations.",
+          },
+          {
+            id: "c69-s5",
+            text: "I entertained or recalled indecent and impure thoughts.",
+          },
+          {
+            id: "c69-s6",
+            text: "I made improper use of marriage or deprived my spouse of his (her) marital rights.",
+          },
+          {
+            id: "c69-s7",
+            text: "I maintained friendships that were habitual occasions of sin.",
+          },
+          {
+            id: "c69-s8",
+            text: "I neglected modesty and decency in my behavior.",
+          },
+          {
+            id: "c69-s9",
+            text: "I put myself in occasions of sin, such as being alone with the opposite sex in secluded places.",
+          },
+          {
+            id: "c69-s10",
+            text: "I sought out entertainment that served as a proximate occasion of sin.",
+          },
+          {
+            id: "c69-s11",
+            text: "I used birth control or other artificial means to prevent having children.",
+          },
+          {
+            id: "c69-s12",
+            text: "I willfully looked at immodest pictures or cast immodest looks upon others.",
+          },
+        ],
+      },
     ],
   },
 
