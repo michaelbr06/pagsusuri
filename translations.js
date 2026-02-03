@@ -273,6 +273,46 @@ export const translations = {
           },
         ],
       },
+
+      {
+        id: "c7-10",
+        header:
+          "7th and 10th Commandment - You shall not steal and covet your neighbor's goods",
+        items: [
+          {
+            id: "c710-s1",
+            text: "I caused damage to the property of others.",
+          },
+          {
+            id: "c710-s2",
+            text: "I failed to give alms according to my capacity.",
+          },
+          {
+            id: "c710-s3",
+            text: "I gave in to laziness in my work or studies.",
+          },
+          {
+            id: "c710-s4",
+            text: "I harmed others through deception, fraud, or coercion in business.",
+          },
+          {
+            id: "c710-s5",
+            text: "I neglected to pay my debts or retained stolen things.",
+          },
+          {
+            id: "c710-s6",
+            text: "I spent beyond my means due to vanity or caprice.",
+          },
+          {
+            id: "c710-s7",
+            text: "I stole an object or an amount of money and failed to return it.",
+          },
+          {
+            id: "c710-s8",
+            text: "I was greedy or held an excessively materialistic view of life.",
+          },
+        ],
+      },
     ],
   },
 
