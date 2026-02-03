@@ -162,6 +162,61 @@ export const translations = {
           },
         ],
       },
+
+      {
+        id: "c5",
+        header: "5th Commandment — You shall not murder.",
+        items: [
+          {
+            id: "c5-s1",
+            text: "I easily got angry, lost my temper, or was envious of others.",
+          },
+          {
+            id: "c5-s2",
+            text: "I injured or took the life of someone, or I was reckless while driving.",
+          },
+          {
+            id: "c5-s3",
+            text: "I was an occasion of sin for others through my conversation, dress, or invitations to harmful shows.",
+          },
+          {
+            id: "c5-s4",
+            text: "I neglected my health or attempted to take my own life.",
+          },
+          {
+            id: "c5-s5",
+            text: "I mutilated myself or another.",
+          },
+          {
+            id: "c5-s6",
+            text: "I got drunk or took prohibited drugs.",
+          },
+          {
+            id: "c5-s7",
+            text: "I gave in to gluttony by eating or drinking more than was sufficient.",
+          },
+          {
+            id: "c5-s8",
+            text: "I participated in physical violence.",
+          },
+          {
+            id: "c5-s9",
+            text: "I consented to or took part in direct sterilization.",
+          },
+          {
+            id: "c5-s10",
+            text: "I consented to, recommended, or took part in an abortion.",
+          },
+          {
+            id: "c5-s11",
+            text: "I desired revenge or harbored hatred and ill-feelings toward someone.",
+          },
+          {
+            id: "c5-s12",
+            text: "I insulted or teased others.",
+          },
+        ],
+      },
     ],
   },
 
