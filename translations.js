@@ -9,7 +9,8 @@ export const translations = {
     categories: [
       {
         id: "c1",
-        header: "1st Commandment",
+        header:
+          "1st Commandment — I am the LORD your God. You shall not have strange gods before me.",
         items: [
           {
             id: "s1",
