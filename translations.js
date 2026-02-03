@@ -313,6 +313,38 @@ export const translations = {
           },
         ],
       },
+
+      {
+        id: "c8",
+        header:
+          "8th Commandment — You shall not bear false witness against your neighbor",
+        items: [
+          {
+            id: "c8-s1",
+            text: "I engaged in gossip, back-biting, or tale-telling.",
+          },
+          {
+            id: "c8-s2",
+            text: "I judged others rashly or suspected others falsely.",
+          },
+          {
+            id: "c8-s3",
+            text: "I revealed secrets without due cause.",
+          },
+          {
+            id: "c8-s4",
+            text: "I sinned by detraction (revealing faults without necessity) or calumny (telling derogatory lies).",
+          },
+          {
+            id: "c8-s5",
+            text: "I told lies and failed to repair the damage resulted from them.",
+          },
+          {
+            id: "c8-s6",
+            text: "I unjustly accused others.",
+          },
+        ],
+      },
     ],
   },
 
