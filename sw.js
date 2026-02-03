@@ -3,6 +3,8 @@ const ASSETS = [
   "./",
   "./index.html",
   "https://unpkg.com/@hotwired/stimulus/dist/stimulus.umd.js",
+  "./translations.js",
+  "./styles.css",
 ];
 
 // Install: Cache all files
