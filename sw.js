@@ -1,4 +1,4 @@
-const CACHE_NAME = "kumpisal-v1";
+const CACHE_NAME = "pagsusuri-v1";
 const ASSETS = [
   "./",
   "./index.html",
