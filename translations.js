@@ -604,6 +604,88 @@ const categoriesData = [
       },
     ],
   },
+  {
+    id: "c2",
+    header: {
+      en: "2nd Commandment — You shall not take the name of the LORD your God in vain.",
+      tg: "Ikalawang Utos — Huwag mong babanggitin ang pangalan ng PANGINOON mong Diyos sa walang kabuluhan.",
+      bs: "Ikalawang Sugo — Ayaw gamita ang ngalan sa GINOO nga imong Diyos sa walay pulos.",
+    },
+    items: [
+      {
+        id: "s18",
+        text: {
+          en: "I failed to try my best to fulfill the promises and resolutions I made to God.",
+          tg: "Hindi ko talaga sineryoso o pinagbutihan na tuparin yung mga pangako at resolution ko sa Diyos.",
+          bs: "Wala gyud nako gipaningkamutan og maayo nga matuman akong mga saad ug resolution sa Ginoo.",
+        },
+      },
+      {
+        id: "s19",
+        text: {
+          en: "I failed to carry out a quiet and persevering work of apostolate among my friends.",
+          tg: 'Hindi ako naging matiyaga o "consistent" sa pag-share ng Faith sa mga kaibigan ko sa tahimik na paraan.',
+          bs: "Wala ko naningkamot sa hilom ug mapailubon nga pag-share sa akong Faith sa akong mga migo/miga.",
+        },
+      },
+      {
+        id: "s20",
+        text: {
+          en: "I did not look for opportunities in my work and social life to carry out an effective apostolate.",
+          tg: "Hindi ako naghanap ng chance sa trabaho o sa gimmick para ilapit ang iba sa Diyos.",
+          bs: "Wala ko nangita og mga higayon sa trabaho o sa social life para maka-apostolate sa uban.",
+        },
+      },
+      {
+        id: "s21",
+        text: {
+          en: "I have not tried to attract any friends to the apostolate.",
+          tg: "Hindi ko man lang sinubukang yayain o i-encourage ang mga kaibigan ko sa mga gawaing pang-Simbahan.",
+          bs: "Wala man lang nako gisulayan og hagit o agat akong mga migo/miga sa mga buluhaton sa Simbahan.",
+        },
+      },
+      {
+        id: "s22",
+        text: {
+          en: "I took the name of God in vain or used it mockingly, jokingly, or angrily.",
+          tg: "Ginamit ko ang pangalan ng Diyos nang walang galang, sa biro, o nung nagalit ako.",
+          bs: "Gigamit nako ang ngalan sa Ginoo sa walay pulos, sa komedya, o sa akong kasuko.",
+        },
+      },
+      {
+        id: "s23",
+        text: {
+          en: "I used the name of the Blessed Virgin Mary or the saints in an irreverent or mocking manner.",
+          tg: "Binastos ko o ginawang biro ang pangalan ni Mama Mary o ng mga santo.",
+          bs: "Gibugal-bugalan o wala nako gitahod ang ngalan ni Mama Mary o sa mga santo.",
+        },
+      },
+      {
+        id: "s24",
+        text: {
+          en: "I was a sponsor in baptism or ceremonies outside the Catholic Church.",
+          tg: "Naging ninong/ninang ako sa binyag o seremonya na hindi sa Katoliko.",
+          bs: "Nag-ninong/ninang ko sa bunyag o seremonya sa gawas sa Simbahang Katoliko.",
+        },
+      },
+      {
+        id: "s25",
+        text: {
+          en: "I told a lie under oath.",
+          tg: "Nagsinungaling ako habang nanunumpa (sa harap ng Diyos o sa batas).",
+          bs: "Namakak ko samtang nanumpa (sa atubangan sa Ginoo o sa balaod).",
+        },
+      },
+      {
+        id: "s26",
+        text: {
+          en: "I was not concerned enough about my professional development or the study necessary to be effective in my work.",
+          tg: "Pinabayaan ko ang pag-aaral o pag-improve sa trabaho ko para maging mahusay sa ginagawa ko.",
+          bs: "Wala ko nag-atiman sa akong pag-eskwela o pag-improve sa trabaho para mag-maayo ko sa akong agi.",
+        },
+      },
+    ],
+  },
   // Add Category c2, c3, etc. here in the same format
 ];
 
