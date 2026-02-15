@@ -396,7 +396,64 @@ const categoriesData = [
       //Add above here
     ],
   },
-
+  {
+    id: "c4-c",
+    header: {
+      en: "4th Commandment — Honor your father and your mother. (For Children)",
+      tg: "Ikaapat na Utos — Igalang mo ang iyong ama at ina. (Para sa mga Anak)",
+      bs: "Ika-upat nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga Bata)",
+    },
+    items: [
+      {
+        id: "s43",
+        text: {
+          en: "I was disobedient or disrespectful toward my parents.",
+          tg: "Naging suwail o bastos ako sa mga magulang ko.",
+          bs: "Nahimo kong dalo o wala nitahod sa akong mga ginikanan.",
+        },
+      },
+      {
+        id: "s44",
+        text: {
+          en: "I neglected to help my parents in their needs or treated them with little affection.",
+          tg: "Kinalimutan kong tulungan ang mga magulang ko o naging malamig/walang lambing sa kanila.",
+          bs: "Wala nako natabangan akong mga ginikanan sa ilang kinahanglan o wala nako sila gipakitaag pagpangga.",
+        },
+      },
+      {
+        id: "s45",
+        text: {
+          en: "I failed to make my house a bright and cheerful Christian home.",
+          tg: "Hindi ko pinagsikapang gawing masaya o maaliwalas ang aming bahay sa pamamagitan ng aking halimbawa.",
+          bs: "Wala nako gipaningkamutan nga mahimong malipayon ug hayag ang among panimalay pinaagi sa akong ehemplo.",
+        },
+      },
+      {
+        id: "s46",
+        text: {
+          en: "I reacted proudly when corrected or had a disordered desire for independence.",
+          tg: "Naging mapagmataas ako nung sinasaway at masyadong nagpumilit na maging independent sa maling paraan.",
+          bs: "Nagmaldito/Nag-isog ko sa dihang gibadlong ug sobra ra akong pag-apas sa kagawasan bisan dili sakto.",
+        },
+      },
+      {
+        id: "s47",
+        text: {
+          en: "I was unwilling to yield my personal preferences; I was selfish instead of generous.",
+          tg: "Naging madamot ako at hindi nagpaubaya para maging masaya ang pamilya; sarili ko lang ang inisip ko.",
+          bs: "Nahimo kong dalo ug wala nagpaubaya para magmalipayon ang pamilya; kaugalingon ra nako akong gihunahuna.",
+        },
+      },
+      {
+        id: "s48",
+        text: {
+          en: "I neglected my house chores or quarreled with my siblings.",
+          tg: "Pinabayaan ko ang mga gawaing bahay o nakipag-away ako sa mga kapatid ko.",
+          bs: "Napasagdan nako ang mga buluhaton sa balay o nakig-away ko sa akong mga igsoon.",
+        },
+      },
+    ],
+  },
   // Add Category c2, c3, etc. here in the same format
 ];
 
