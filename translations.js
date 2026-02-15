@@ -336,6 +336,66 @@ const categoriesData = [
       },
     ],
   },
+  {
+    id: "c4-p",
+    header: {
+      en: "4th Commandment — Honor your father and your mother. (For Parents)",
+      tg: "Ikaapat na Utos — Igalang mo ang iyong ama at ina. (Para sa Magulang)",
+      bs: "Ika-upat nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga ginikanan)",
+    },
+    items: [
+      {
+        id: "s37",
+        text: {
+          en: "I neglected to teach my children their prayers or provide a Christian education.",
+          tg: "Pinabayaan kong hindi maturuan ng mga dasal o Kristiyanong turo ang mga anak ko.",
+          bs: "Napasagdan nako ang pagtudlo sa mga pag-ampo o Kristohanong turo sa akong mga anak.",
+        },
+      },
+      {
+        id: "s38",
+        text: {
+          en: "I failed to make my house a bright and cheerful Christian home.",
+          tg: "Hindi ko pinagsikapang maging masaya at maaliwalas ang aming bahay bilang Kristiyanong tahanan.",
+          bs: "Wala nako gipaningkamutan nga mahimong malipayon ug hayag ang among panimalay isip mga Kristiyanos.",
+        },
+      },
+      {
+        id: "s39",
+        text: {
+          en: "I gave my children bad example.",
+          tg: "Nagpakita ako ng masamang halimbawa sa mga anak ko.",
+          bs: "Nagpakita ko og bati nga ehemplo sa akong mga anak.",
+        },
+      },
+      {
+        id: "s40",
+        text: {
+          en: "I neglected to watch over my children's companions or media.",
+          tg: "Hindi ko binantayan kung sino ang mga kasama ng mga anak ko o kung ano ang pinapanood nila.",
+          bs: "Wala nako nabantayan ang mga kauban sa akong mga anak o ang mga butang nga ilang ginatan-aw.",
+        },
+      },
+      {
+        id: "s41",
+        text: {
+          en: "I failed to ensure my children received the Sacraments.",
+          tg: "Hindi ko tiniyak na makatanggap ng mga Sakramento (Kumpisal, Communion, Confirmation) ang mga anak ko.",
+          bs: "Wala nako gisiguro nga makadawat og mga Sakramento (Kumpisal, Kalawat, Kumpirma) ang akong mga anak.",
+        },
+      },
+      {
+        id: "s42",
+        text: {
+          en: "I neglected family duties for work or social life.",
+          tg: "Pinabayaan ko ang mga tungkulin ko sa pamilya dahil masyado akong nag-focus sa trabaho o barkada.",
+          bs: "Napasagdan nako akong obligasyon sa pamilya tungod sa sobrang pag-focus sa trabaho o social life.",
+        },
+      },
+
+      //Add above here
+    ],
+  },
 
   // Add Category c2, c3, etc. here in the same format
 ];
