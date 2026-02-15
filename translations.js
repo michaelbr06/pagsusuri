@@ -246,6 +246,97 @@ const categoriesData = [
       },
     ],
   },
+  {
+    id: "c3",
+    header: {
+      en: "3rd Commandment — Remember to keep holy the LORD'S Day.",
+      tg: "Ikatlong Utos — Pangilin mo ang araw ng PANGINOON.",
+      bs: "Ikatulong Sugo — Hinumdumi ang pagbalaan sa adlaw sa GINOO.",
+    },
+    items: [
+      {
+        id: "s27",
+        text: {
+          en: "I broke my private or public vows.",
+          tg: "Sinira ko ang mga binitawan kong panata o sumpa (sa Diyos o sa tao).",
+          bs: "Wala nako tumana ang akong mga saad o panumpa.",
+        },
+      },
+      {
+        id: "s28",
+        text: {
+          en: "I wasted my time.",
+          tg: "Sinayang ko lang ang oras ko sa mga walang kwentang bagay.",
+          bs: "Gi-usik-usikan lang nako akong oras sa walay pulos.",
+        },
+      },
+      {
+        id: "s29",
+        text: {
+          en: "I allowed myself to be distracted during Mass.",
+          tg: "Nagpa-distract ako sa Misa—hindi ako nakinig at kung saan-saan ako tumitingin.",
+          bs: "Nagpa-distract lang ko sa Misa—wala ko naminaw ug bisan asa lang ko nagtan-aw.",
+        },
+      },
+      {
+        id: "s30",
+        text: {
+          en: "I deceived myself by leaving work for later.",
+          tg: "Niloko ko ang sarili ko; ipinagpabukas ang trabaho imbis na tapusin na agad.",
+          bs: "Gi-atik nako akong kaugalingon; gi-ugma-ugma ang trabaho imbis nga humanon na unta.",
+        },
+      },
+      {
+        id: "s31",
+        text: {
+          en: "I arrived at Mass so late that I failed my obligation.",
+          tg: "Sobra akong nahuli sa Misa kaya hindi ko na talaga natupad ang obligasyon ko.",
+          bs: "Na-late kaayo ko sa Misa mao nga wala na nako natuman ang akong obligasyon.",
+        },
+      },
+      {
+        id: "s32",
+        text: {
+          en: "I missed Sunday Mass and/or a Holy Day of Obligation (Dec 8, Dec 25 and/or Jan 1).",
+          tg: "Lumiban ako sa Misa nung Linggo o nung mga Holy Day (Dec 8, 25, o Jan 1).",
+          bs: "Ni-absent ko sa Misa sa Domingo o sa mga Holy Day (Dec 8, 25, o Jan 1).",
+        },
+      },
+      {
+        id: "s33",
+        text: {
+          en: "I misbehaved or maintained improper posture or dress.",
+          tg: "Hindi maayos ang kilos, postura, o suot ko sa loob ng simbahan.",
+          bs: "Dili maayo akong lihok, barog, o sinuotan sa sulod sa simbahan.",
+        },
+      },
+      {
+        id: "s34",
+        text: {
+          en: "I failed to help the Church in her necessities.",
+          tg: "Hindi ako tumulong sa mga pangangailangan ng Simbahan kahit kaya ko naman.",
+          bs: "Wala ko nitabang sa mga kinahanglanon sa Simbahan bisan og makaya ra unta nako.",
+        },
+      },
+      {
+        id: "s35",
+        text: {
+          en: "I did not fast or abstain on the prescribed days.",
+          tg: "Hindi ako nag-ayuno o umiwas sa karne sa mga araw na iniutos ng Simbahan.",
+          bs: "Wala ko nag-puasa o nag-abstinence sa mga adlaw nga gi-ingon sa Simbahan.",
+        },
+      },
+      {
+        id: "s36",
+        text: {
+          en: "I performed work or business that inhibited worship or rest.",
+          tg: "Nagtrabaho o nag-negosyo ako na naging hadlang sa pagsimba o pahinga tuwing Linggo.",
+          bs: "Nagtrabaho o nag-negosyo ko nga nakababag sa akong pagsimba o pagpahuway sa adlaw sa Ginoo.",
+        },
+      },
+    ],
+  },
+
   // Add Category c2, c3, etc. here in the same format
 ];
 
