@@ -464,197 +464,257 @@ const categoriesData = [
     items: [
       {
         id: "s49",
-
         text: {
           en: "I easily got angry, lost my temper, or was envious of others.",
-
           tg: "Madaling uminit ang ulo ko, o nawalan ng pasensya, o nainggit sa ibang tao.",
-
           bs: "Dali ra ko nasuko, nawad-an og pasensya, o nasuya sa ubang tawo.",
         },
       },
-
       {
         id: "s50",
-
         text: {
           en: "I injured or took the life of someone, or I was reckless while driving.",
-
           tg: "Nakasakit ako o nakapatay ng tao, o kaya naging kaskasero sa pagmamaneho.",
-
           bs: "Naa koy napun-an o napatay nga tawo, o nagpaka-paka ko og drayb sa dalan.",
         },
       },
-
       {
         id: "s51",
-
         text: {
           en: "I was an occasion of sin for others through my words, dress, or media.",
-
           tg: "Naging mitsa ako ng pagkakasala ng iba dahil sa pananalita, pananamit, o panonood ng masasamang palabas.",
-
           bs: "Nahimo kong hinungdan sa sala sa uban tungod sa akong storya, sinuotan, o pag-aghat sa mga bati nga salida.",
         },
       },
-
       {
         id: "s52",
-
         text: {
           en: "I neglected my health or attempted to take my own life.",
-
           tg: "Pinabayaan ko ang kalusugan ko o sinubukang saktan ang sarili ko.",
-
           bs: "Napasagdan nako akong lawas o gisulayan nako og daut akong kaugalingong kinabuhi.",
         },
       },
-
       {
         id: "s53",
-
         text: {
           en: "I mutilated myself or another.",
-
           tg: "Sinadya kong saktan o sirain ang bahagi ng katawan ko o ng ibang tao.",
-
           bs: "Gituyo nako og samad o daut ang akong lawas o sa laing tawo.",
         },
       },
-
       {
         id: "s54",
-
         text: {
           en: "I got drunk or took prohibited drugs.",
-
           tg: "Naglasing ako o gumamit ng pinagbabawal na gamot.",
-
           bs: "Nahubog ko o nigamit og ginadili nga droga.",
         },
       },
-
       {
         id: "s55",
-
         text: {
           en: "I gave in to gluttony by eating or drinking more than was sufficient.",
-
           tg: "Naging matakaw ako at kumain o uminom nang sobra-sobra.",
-
           bs: "Nahimo kong dalo sa pagkaon o pag-inom og sobra-sobra sa kinahanglanon.",
         },
       },
-
       {
         id: "s56",
-
         text: {
           en: "I participated in physical violence.",
-
           tg: "Nakipag-away ako o gumamit ng dahas sa ibang tao.",
-
           bs: "Niapil ko sa pisikal nga panag-away o pagpanakit.",
         },
       },
-
       {
         id: "s57",
-
         text: {
           en: "I consented to or took part in sterilization.",
-
           tg: "Pumayag o nakibahagi ako sa pagpapatali o sterilization.",
-
           bs: "Nisugot o niapil ko sa pagpa-sterilize o pagpa-tali.",
         },
       },
-
       {
         id: "s58",
-
         text: {
           en: "I consented to, recommended, or took part in an abortion.",
-
           tg: "Pumayag, nagmungkahi, o nakibahagi ako sa pagpapalaglag (abortion).",
-
           bs: "Nisugot, nag-rekomenda, o niapil ko sa pagpa-aborsyon.",
         },
       },
-
       {
         id: "s59",
-
         text: {
           en: "I desired revenge or harbored hatred toward someone.",
-
           tg: "Naghangad ako ng higanti o nagkimkim ng galit sa kapwa.",
-
           bs: "Gusto ko makabaws o nagpundo ko og kalagot ug dumot sa uban.",
         },
       },
-
       {
         id: "s60",
-
         text: {
           en: "I insulted or teased others.",
-
           tg: "Namahiya ako o nanukso ng ibang tao.",
-
           bs: "Naminsala o nanguog/nanungog ko sa uban.",
         },
       },
-
       {
         id: "s61",
-
         text: {
           en: 'I used my power or position to intimidate or "bully" someone.',
-
           tg: "Ginamit ko ang posisyon o kapangyarihan ko para manakot o mang-bully.",
-
           bs: "Gigamit nako akong posisyon o gahum para manghadlok o mang-bully.",
         },
       },
-
       {
         id: "s62",
-
         text: {
           en: "I was bossy and tried to control people instead of collaborating.",
-
           tg: 'Naging "bossy" ako at pinilit kontrolin ang iba imbis na makipagtulungan.',
-
           bs: 'Nahimo kong "bossy" ug namugos og kontrol sa uban imbis nga makig-uban.',
         },
       },
-
       {
         id: "s63",
-
         text: {
           en: "I started arguments just to prove I was right.",
-
           tg: "Nakipag-away ako para lang mapatunayang tama ako, kahit masira ang relasyon.",
-
           bs: "Nakig-lalis ko para lang ingnon nga sakto ko, bisan og nakaguba na sa relasyon.",
         },
       },
-
       {
         id: "s64",
-
         text: {
           en: 'I was rude or "know-it-all" when disagreeing with someone.',
-
           tg: 'Naging bastos ako o nag-feeling "know-it-all" nung may hindi ako nakasundo.',
-
           bs: 'Nahimo kong bastos o "bright-bright" sa dihang nakig-batok ko sa huna-huna sa uban.',
         },
       },
     ],
   },
+  {
+    id: "c6-9",
+    header: {
+      en: "6th and 9th Commandment — You shall not commit adultery and not covet your neighbor's wife.",
+      tg: "Ika-6 at ika-9 na Utos — Huwag kang makikiapid at huwag kang magnanasa sa asawa ng iyong kapwa.",
+      bs: "Ikaunom ug ikasiyam nga Sugo — Ayaw pagpanapaw ug ayaw tinguhaa ang asawa sa imong isigkatawo.",
+    },
+    items: [
+      {
+        id: "s65",
+        text: {
+          en: "I committed impure acts, such as masturbation (alone or with others).",
+          tg: 'Gumawa ako ng malaswang bagay, mag-isa man o may kasama, gaya ng "self-pleasure\".',
+          bs: "Naghimo ko og malaw-ay nga mga buhat, sa akong kaugalingon o uban sa uban, sama sa masturbation.",
+        },
+      },
+      {
+        id: "s66",
+        text: {
+          en: "I looked at pornography or watched shows with impure content.",
+          tg: "Nanood ako ng bold (pornography) o mga palabas na may mga malalaswang eksena.",
+          bs: "Nagtan-aw ko og bold (pornography) o mga salida nga naay malaw-ay nga sulod.",
+        },
+      },
+      {
+        id: "s67",
+        text: {
+          en: "I took pleasure in entertaining impure thoughts or desires.",
+          tg: "Pinatulan ko at dinamdam ang mga malalaswang isipin o pagnanasa.",
+          bs: "Nagpatuyang ko sa paghuna-huna og mga malaw-ay nga mga butang.",
+        },
+      },
+      {
+        id: "s68",
+        text: {
+          en: "I dressed immodestly or was excessively concerned with my appearance.",
+          tg: "Nagsuot ako ng malaswang damit o naging masyadong banidoso/atado sa hitsura ko.",
+          bs: "Nagsuot ko og mga sinina nga law-ay tan-awon o sobra ra akong pag-atiman sa akong hitsura.",
+        },
+      },
+      {
+        id: "s69",
+        text: {
+          en: "I used vulgar language or listened to impure jokes and stories.",
+          tg: "Nagmura ako o nakinig at nagkwento ng mga malalaswang joke.",
+          bs: "Naggamit ko og mga malaw-ay nga pulong o naminaw ug nag-istorya og mga bastos nga komedya.",
+        },
+      },
+      {
+        id: "s70",
+        text: {
+          en: "I consented to evil desires against the virtue of purity.",
+          tg: "Hinayaan kong malunod ako sa mga maling pagnanasa na labag sa kalinisan.",
+          bs: "Nisugot o nagpadaog ko sa mga dautang tinguha batok sa kaputli.",
+        },
+      },
+      {
+        id: "s71",
+        text: {
+          en: "I engaged in or started impure conversations.",
+          tg: "Nakisali ako o nag-umpisa ng mga bastos na usapan.",
+          bs: "Niapil ko o nag-una-una og mga malaw-ay nga storya.",
+        },
+      },
+      {
+        id: "s72",
+        text: {
+          en: "I entertained or recalled indecent and impure thoughts.",
+          tg: "Inisip ko o binalikan sa alaala ang mga bastos na bagay.",
+          bs: "Naghuna-huna o naghandom ko sa mga malaw-ay nga mga butang.",
+        },
+      },
+      {
+        id: "s73",
+        text: {
+          en: "I made improper use of marriage or deprived my spouse of marital rights.",
+          tg: "Inabuso ko ang pagsasama namin o pinagkaitan ang asawa ko sa kanyang karapatan sa kama.",
+          bs: "Wala nako gigamit sa sakto ang kaminyoon o gihikawan nako akong asawa sa iyang katungod sa kaminyoon.",
+        },
+      },
+      {
+        id: "s74",
+        text: {
+          en: "I maintained friendships that were habitual occasions of sin.",
+          tg: "Nakipag-barkada ako sa mga tawo na nagiging dahilan para magkasala ako palagi.",
+          bs: "Nakig-migo ko sa mga tawo nga permi makapa-angin nako sa pagpakasala.",
+        },
+      },
+      {
+        id: "s75",
+        text: {
+          en: "I neglected modesty and decency in my behavior.",
+          tg: "Pinabayaan ko ang pagiging disente o kagalang-galang sa mga galaw ko.",
+          bs: "Napasagdan nako ang pagka-desente o matinahuron sa akong mga linihokan.",
+        },
+      },
+      {
+        id: "s76",
+        text: {
+          en: "I put myself in occasions of sin, such as being alone in secluded places.",
+          tg: "Sinadya kong ilagay ang sarili ko sa tukso, gaya ng pakikipag-solo sa maling lugar.",
+          bs: "Gibutang nako akong kaugalingon sa tentasyon, sama sa pagpakig-solo sa hilit nga dapit.",
+        },
+      },
+      {
+        id: "s77",
+        text: {
+          en: "I sought out entertainment that served as an occasion of sin.",
+          tg: "Naghanap ako ng mga libangan na alam kong magdadala sa akin sa pagkakasala.",
+          bs: "Nangita ko og kalingawan nga nahimong dalan para makasala ko.",
+        },
+      },
+      {
+        id: "s78",
+        text: {
+          en: "I used birth control or artificial means to prevent having children.",
+          tg: "Gumamit ako ng birth control o artificial na paraan para iwasang magkaanak.",
+          bs: "Nigamit ko og birth control o artificial nga pamaagi para malikayan ang pagbaton og anak.",
+        },
+      },
+    ],
+  },
+
   // Add Category c2, c3, etc. here in the same format
 ];
 
