@@ -796,6 +796,120 @@ const categoriesData = [
       },
     ],
   },
+  {
+    id: "c8",
+    header: {
+      en: "8th Commandment — You shall not bear false witness against your neighbor.",
+      tg: "Ikawalong Utos — Huwag kang magbibintang at huwag kang magsisinungaling.",
+      bs: "Ikawalo nga Sugo — Ayaw pagpamatuod og bakak batok sa imong isigkatawo.",
+    },
+    items: [
+      {
+        id: "s88",
+        text: {
+          en: "I engaged in gossip, back-biting, or tale-telling.",
+          tg: "Nakisali ako sa tsismis, paninira, o pagkakalat ng kung anu-anong kwento.",
+          bs: "Niapil ko sa panabi-tabi, panlibak, o pagpakatap og mga istorya.",
+        },
+      },
+      {
+        id: "s89",
+        text: {
+          en: "I judged others rashly or suspected others falsely.",
+          tg: "Nanghusga agad ako o nagbintang sa iba nang walang basehan.",
+          bs: "Namasangil o nanghusga ko sa uban bisan wala koy ebidensya.",
+        },
+      },
+      {
+        id: "s90",
+        text: {
+          en: "I revealed secrets without due cause.",
+          tg: "Nagkalat ako ng mga sikreto kahit wala namang dahilan para gawin 'yun.",
+          bs: "Namulgar ko og mga sekreto bisan wala untay rason.",
+        },
+      },
+      {
+        id: "s91",
+        text: {
+          en: "I sinned by detraction or calumny (derogatory lies).",
+          tg: "Nanira ako sa pamamagitan ng pagkalat ng baho ng iba o pag-iimbento ng kasinungalingan.",
+          bs: "Nanira ko pinaagi sa pagbutyag sa sayop sa uban o paghimo-himo og bakak.",
+        },
+      },
+      {
+        id: "s92",
+        text: {
+          en: "I told lies and failed to repair the damage resulted from them.",
+          tg: "Nagsinungaling ako at hindi ko inayos ang gulong idinulot nito.",
+          bs: "Namakak ko ug wala nako gi-ayo ang daut nga agi sa akong pagpamakak.",
+        },
+      },
+      {
+        id: "s93",
+        text: {
+          en: "I unjustly accused others.",
+          tg: "Nagbintang ako ng maling paratang sa ibang tao.",
+          bs: "Namasangil ko sa uban sa butang nga wala nila nabuhat.",
+        },
+      },
+      {
+        id: "s94",
+        text: {
+          en: 'I am giving someone the "silent treatment" or refusing to forgive.',
+          tg: 'Tinu-toyo" ko o hindi ko kinakausap ang isang tao dahil ayaw ko siyang patawarin.',
+          bs: 'Gi-"silent treatment" nako ang usa ka tawo o wala nako siya gipatawad.',
+        },
+      },
+      {
+        id: "s95",
+        text: {
+          en: "I have let a grudge last for a long time without making peace.",
+          tg: "Nagtanim ako ng galit nang matagal at hindi ako gumawa ng paraan para makipag-ayos.",
+          bs: "Naghupot ko og dumot sa taas nga panahon ug wala ko naningkamot makig-uli.",
+        },
+      },
+      {
+        id: "s96",
+        text: {
+          en: "I let my insecurities cause me to react over-sensitively or lash out.",
+          tg: 'Masyado akong naging "pikon" o "thin-skinned" kaya ako nagalit o nakapanakit ng iba.',
+          bs: 'Tungod sa akong insecurities, naging "pikon" ko ug nakapang-away sa uban.',
+        },
+      },
+      {
+        id: "s97",
+        text: {
+          en: "I spoke badly about someone behind their back.",
+          tg: "Nagsalita ako nang masama tungod sa likod ng ibang tao.",
+          bs: "Nanglibak ko o nistora og bati sa likod sa laing tawo.",
+        },
+      },
+      {
+        id: "s98",
+        text: {
+          en: "I lied about someone to ruin their reputation.",
+          tg: "Nagsinungaling ako para lang masira ang pagkatao o reputasyon ng iba.",
+          bs: "Namakak ko bahin sa usa ka tawo para lang maguba iyang dungog.",
+        },
+      },
+      {
+        id: "s99",
+        text: {
+          en: "I shared someone’s private faults with others just to gossip.",
+          tg: "Pinagkalat ko ang mga personal na pagkakamali ng iba para lang makipag-tsismisan.",
+          bs: "Gipang-istorya nako ang mga sekreto o sayop sa uban para lang naay malibak.",
+        },
+      },
+      {
+        id: "s100",
+        text: {
+          en: "I blamed others for my own mistakes to protect my ego.",
+          tg: "Nanisi ako ng iba sa sarili kong mali para lang hindi ako mapahiya.",
+          bs: "Namasol ko sa uban sa akong kaugalingong sayop para lang dili ma-igo akong ego.",
+        },
+      },
+    ],
+  },
 
   // Add Category c2, c3, etc. here in the same format
 ];
