@@ -714,6 +714,88 @@ const categoriesData = [
       },
     ],
   },
+  {
+    id: "c7-10",
+    header: {
+      en: "7th Commandment — You shall not steal and not covet your neighbor's goods",
+      tg: "ika-7 at ika-10 na Utos — Huwag kang magnanakaw at huwag kang magnanasa sa pag-aari ng iyong kapwa",
+      bs: "ikapito ug ikanapulo nga Sugo — Ayaw pagkawat ug ayaw tinguhaa ang mga kabtangan sa imong isigkatawo.",
+    },
+    items: [
+      {
+        id: "s79",
+        text: {
+          en: "I caused damage to the property of others.",
+          tg: "Nakasira ako ng gamit o pag-aari ng ibang tao.",
+          bs: "Naa koy nangaguba nga butang o kabtangan sa ubang tawo.",
+        },
+      },
+      {
+        id: "s80",
+        text: {
+          en: "I caused others to waste time (disturbing them/unpunctual).",
+          tg: "Naka-abala ako sa trabaho ng iba o naging dahilan ng pagka-sayang ng oras nila dahil hindi ako on-time.",
+          bs: "Nakatugaw ko sa trabaho sa uban o naka-usik sa ilang oras tungod sa akong pagka-late.",
+        },
+      },
+      {
+        id: "s81",
+        text: {
+          en: "I failed to give alms according to my capacity.",
+          tg: "Hindi ako nag-share sa mga nangangailangan kahit may kakayahan naman ako.",
+          bs: "Wala ko nihatag og hinabang o limos sa mga nanginahanglan bisan og naa koy ikagasto.",
+        },
+      },
+      {
+        id: "s82",
+        text: {
+          en: "I gave in to laziness in my work or studies.",
+          tg: "Nagpadala ako sa katamaran sa trabaho o sa pag-aaral ko.",
+          bs: "Nagpadaog ko sa katapul sa akong trabaho o sa akong pag-eskwela.",
+        },
+      },
+      {
+        id: "s83",
+        text: {
+          en: "I harmed others through deception or fraud in business.",
+          tg: "Nanloko o nang-isa ako ng kapwa sa negosyo o sa mga transaksyon.",
+          bs: "Nangilad o namintaha ko sa akong isigkatawo sa negosyo o transaksyon.",
+        },
+      },
+      {
+        id: "s84",
+        text: {
+          en: "I neglected to pay my debts or retained stolen things.",
+          tg: "Hindi ako nagbayad ng utang o itinago ko ang mga bagay na hindi naman sa akin.",
+          bs: "Wala nako bayari akong mga utang o naghupot ko og mga butang nga dili akoa.",
+        },
+      },
+      {
+        id: "s85",
+        text: {
+          en: "I spent beyond my means due to vanity or caprice.",
+          tg: "Gumastos ako nang higit sa kinikita ko dahil lang sa luho o arte.",
+          bs: "Nigasto ko og labaw pa sa akong kaya tungod lang sa luho o bisyo.",
+        },
+      },
+      {
+        id: "s86",
+        text: {
+          en: "I stole an object or money and failed to return it.",
+          tg: "Nagnakaw ako ng gamit o pera at hindi ko na ito ibinalik.",
+          bs: "Nangawat ko og butang o kwarta ug wala nako kini giuli.",
+        },
+      },
+      {
+        id: "s87",
+        text: {
+          en: "I was greedy or held a materialistic view of life.",
+          tg: "Naging sakim ako o naging masyadong mukhang-pera/materialistic sa buhay.",
+          bs: "Nahimo kong dalo o sobra ra ka materialistic sa akong panglantaw sa kinabuhi.",
+        },
+      },
+    ],
+  },
 
   // Add Category c2, c3, etc. here in the same format
 ];
