@@ -454,6 +454,207 @@ const categoriesData = [
       },
     ],
   },
+  {
+    id: "c5",
+    header: {
+      en: "5th Commandment — You shall not kill.",
+      tg: "Ika-5 Utos — Huwag kang papatay.",
+      bs: "Ika-5 nga Sugo — Ayaw pagpatay.",
+    },
+    items: [
+      {
+        id: "s49",
+
+        text: {
+          en: "I easily got angry, lost my temper, or was envious of others.",
+
+          tg: "Madaling uminit ang ulo ko, o nawalan ng pasensya, o nainggit sa ibang tao.",
+
+          bs: "Dali ra ko nasuko, nawad-an og pasensya, o nasuya sa ubang tawo.",
+        },
+      },
+
+      {
+        id: "s50",
+
+        text: {
+          en: "I injured or took the life of someone, or I was reckless while driving.",
+
+          tg: "Nakasakit ako o nakapatay ng tao, o kaya naging kaskasero sa pagmamaneho.",
+
+          bs: "Naa koy napun-an o napatay nga tawo, o nagpaka-paka ko og drayb sa dalan.",
+        },
+      },
+
+      {
+        id: "s51",
+
+        text: {
+          en: "I was an occasion of sin for others through my words, dress, or media.",
+
+          tg: "Naging mitsa ako ng pagkakasala ng iba dahil sa pananalita, pananamit, o panonood ng masasamang palabas.",
+
+          bs: "Nahimo kong hinungdan sa sala sa uban tungod sa akong storya, sinuotan, o pag-aghat sa mga bati nga salida.",
+        },
+      },
+
+      {
+        id: "s52",
+
+        text: {
+          en: "I neglected my health or attempted to take my own life.",
+
+          tg: "Pinabayaan ko ang kalusugan ko o sinubukang saktan ang sarili ko.",
+
+          bs: "Napasagdan nako akong lawas o gisulayan nako og daut akong kaugalingong kinabuhi.",
+        },
+      },
+
+      {
+        id: "s53",
+
+        text: {
+          en: "I mutilated myself or another.",
+
+          tg: "Sinadya kong saktan o sirain ang bahagi ng katawan ko o ng ibang tao.",
+
+          bs: "Gituyo nako og samad o daut ang akong lawas o sa laing tawo.",
+        },
+      },
+
+      {
+        id: "s54",
+
+        text: {
+          en: "I got drunk or took prohibited drugs.",
+
+          tg: "Naglasing ako o gumamit ng pinagbabawal na gamot.",
+
+          bs: "Nahubog ko o nigamit og ginadili nga droga.",
+        },
+      },
+
+      {
+        id: "s55",
+
+        text: {
+          en: "I gave in to gluttony by eating or drinking more than was sufficient.",
+
+          tg: "Naging matakaw ako at kumain o uminom nang sobra-sobra.",
+
+          bs: "Nahimo kong dalo sa pagkaon o pag-inom og sobra-sobra sa kinahanglanon.",
+        },
+      },
+
+      {
+        id: "s56",
+
+        text: {
+          en: "I participated in physical violence.",
+
+          tg: "Nakipag-away ako o gumamit ng dahas sa ibang tao.",
+
+          bs: "Niapil ko sa pisikal nga panag-away o pagpanakit.",
+        },
+      },
+
+      {
+        id: "s57",
+
+        text: {
+          en: "I consented to or took part in sterilization.",
+
+          tg: "Pumayag o nakibahagi ako sa pagpapatali o sterilization.",
+
+          bs: "Nisugot o niapil ko sa pagpa-sterilize o pagpa-tali.",
+        },
+      },
+
+      {
+        id: "s58",
+
+        text: {
+          en: "I consented to, recommended, or took part in an abortion.",
+
+          tg: "Pumayag, nagmungkahi, o nakibahagi ako sa pagpapalaglag (abortion).",
+
+          bs: "Nisugot, nag-rekomenda, o niapil ko sa pagpa-aborsyon.",
+        },
+      },
+
+      {
+        id: "s59",
+
+        text: {
+          en: "I desired revenge or harbored hatred toward someone.",
+
+          tg: "Naghangad ako ng higanti o nagkimkim ng galit sa kapwa.",
+
+          bs: "Gusto ko makabaws o nagpundo ko og kalagot ug dumot sa uban.",
+        },
+      },
+
+      {
+        id: "s60",
+
+        text: {
+          en: "I insulted or teased others.",
+
+          tg: "Namahiya ako o nanukso ng ibang tao.",
+
+          bs: "Naminsala o nanguog/nanungog ko sa uban.",
+        },
+      },
+
+      {
+        id: "s61",
+
+        text: {
+          en: 'I used my power or position to intimidate or "bully" someone.',
+
+          tg: "Ginamit ko ang posisyon o kapangyarihan ko para manakot o mang-bully.",
+
+          bs: "Gigamit nako akong posisyon o gahum para manghadlok o mang-bully.",
+        },
+      },
+
+      {
+        id: "s62",
+
+        text: {
+          en: "I was bossy and tried to control people instead of collaborating.",
+
+          tg: 'Naging "bossy" ako at pinilit kontrolin ang iba imbis na makipagtulungan.',
+
+          bs: 'Nahimo kong "bossy" ug namugos og kontrol sa uban imbis nga makig-uban.',
+        },
+      },
+
+      {
+        id: "s63",
+
+        text: {
+          en: "I started arguments just to prove I was right.",
+
+          tg: "Nakipag-away ako para lang mapatunayang tama ako, kahit masira ang relasyon.",
+
+          bs: "Nakig-lalis ko para lang ingnon nga sakto ko, bisan og nakaguba na sa relasyon.",
+        },
+      },
+
+      {
+        id: "s64",
+
+        text: {
+          en: 'I was rude or "know-it-all" when disagreeing with someone.',
+
+          tg: 'Naging bastos ako o nag-feeling "know-it-all" nung may hindi ako nakasundo.',
+
+          bs: 'Nahimo kong bastos o "bright-bright" sa dihang nakig-batok ko sa huna-huna sa uban.',
+        },
+      },
+    ],
+  },
   // Add Category c2, c3, etc. here in the same format
 ];
 
