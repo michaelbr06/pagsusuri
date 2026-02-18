@@ -22,8 +22,8 @@ const categoriesData = [
     id: "c1",
     header: {
       en: "1st Commandment — I am the LORD your God. You shall not have strange gods before me.",
-      tg: "Unang Utos — Ako ang PANGINOON mong Diyos. Huwag kang magkakaroon ng ibang diyos bukod sa Akin.",
-      bs: "Unang Sugo — Ako ang GINOO nga imong Diyos. Ayaw pagbaton og laing mga diyos gawas Kanako.",
+      tg: "Ika-1 Utos — Ako ang PANGINOON mong Diyos. Huwag kang magkakaroon ng ibang diyos bukod sa Akin.",
+      bs: "Ika-1 Sugo — Ako ang GINOO nga imong Diyos. Ayaw pagbaton og laing mga diyos gawas Kanako.",
     },
     items: [
       {
@@ -168,8 +168,8 @@ const categoriesData = [
     id: "c2",
     header: {
       en: "2nd Commandment — You shall not take the name of the LORD your God in vain.",
-      tg: "Ikalawang Utos — Huwag mong babanggitin ang pangalan ng PANGINOON mong Diyos sa walang kabuluhan.",
-      bs: "Ikalawang Sugo — Ayaw gamita ang ngalan sa GINOO nga imong Diyos sa walay pulos.",
+      tg: "Ika-2 Utos — Huwag mong babanggitin ang pangalan ng PANGINOON mong Diyos sa walang kabuluhan.",
+      bs: "Ika-2 Sugo — Ayaw gamita ang ngalan sa GINOO nga imong Diyos sa walay pulos.",
     },
     items: [
       {
@@ -250,8 +250,8 @@ const categoriesData = [
     id: "c3",
     header: {
       en: "3rd Commandment — Remember to keep holy the LORD'S Day.",
-      tg: "Ikatlong Utos — Pangilin mo ang araw ng PANGINOON.",
-      bs: "Ikatulong Sugo — Hinumdumi ang pagbalaan sa adlaw sa GINOO.",
+      tg: "Ika-3 Utos — Pangilin mo ang araw ng PANGINOON.",
+      bs: "Ika-3 Sugo — Hinumdumi ang pagbalaan sa adlaw sa GINOO.",
     },
     items: [
       {
@@ -340,8 +340,8 @@ const categoriesData = [
     id: "c4-p",
     header: {
       en: "4th Commandment — Honor your father and your mother. (For Parents)",
-      tg: "Ikaapat na Utos — Igalang mo ang iyong ama at ina. (Para sa Magulang)",
-      bs: "Ika-upat nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga ginikanan)",
+      tg: "Ika-4 na Utos — Igalang mo ang iyong ama at ina. (Para sa Magulang)",
+      bs: "Ika-4 nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga ginikanan)",
     },
     items: [
       {
@@ -400,8 +400,8 @@ const categoriesData = [
     id: "c4-c",
     header: {
       en: "4th Commandment — Honor your father and your mother. (For Children)",
-      tg: "Ikaapat na Utos — Igalang mo ang iyong ama at ina. (Para sa mga Anak)",
-      bs: "Ika-upat nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga Bata)",
+      tg: "Ika-4 na Utos — Igalang mo ang iyong ama at ina. (Para sa mga Anak)",
+      bs: "Ika-4 nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga Bata)",
     },
     items: [
       {
@@ -718,8 +718,8 @@ const categoriesData = [
     id: "c7-10",
     header: {
       en: "7th Commandment — You shall not steal and not covet your neighbor's goods",
-      tg: "ika-7 at ika-10 na Utos — Huwag kang magnanakaw at huwag kang magnanasa sa pag-aari ng iyong kapwa",
-      bs: "ikapito ug ikanapulo nga Sugo — Ayaw pagkawat ug ayaw tinguhaa ang mga kabtangan sa imong isigkatawo.",
+      tg: "Ika-7 at Ika-10 na Utos — Huwag kang magnanakaw at huwag kang magnanasa sa pag-aari ng iyong kapwa",
+      bs: "Ika-7 ug Ika-10 nga Sugo — Ayaw pagkawat ug ayaw tinguhaa ang mga kabtangan sa imong isigkatawo.",
     },
     items: [
       {
@@ -800,8 +800,8 @@ const categoriesData = [
     id: "c8",
     header: {
       en: "8th Commandment — You shall not bear false witness against your neighbor.",
-      tg: "Ikawalong Utos — Huwag kang magbibintang at huwag kang magsisinungaling.",
-      bs: "Ikawalo nga Sugo — Ayaw pagpamatuod og bakak batok sa imong isigkatawo.",
+      tg: "Ika-8 Utos — Huwag kang magbibintang at huwag kang magsisinungaling.",
+      bs: "Ika-8 nga Sugo — Ayaw pagpamatuod og bakak batok sa imong isigkatawo.",
     },
     items: [
       {
