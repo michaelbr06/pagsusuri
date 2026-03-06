@@ -8,12 +8,11 @@
     <script src="https://unpkg.com/@hotwired/stimulus/dist/stimulus.umd.js"></script>
     <link rel="manifest" href="manifest.json" />
     <script>
-      // Service worker disabled temporarily for debugging
-      // if ("serviceWorker" in navigator) {
-      //   navigator.serviceWorker
-      //     .register("./sw.js")
-      //     .then(() => console.log("Offline mode enabled."));
-      // }
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./sw.js")
+          .then(() => console.log("Offline mode enabled."));
+      }
     </script>
   </head>
   <body>
@@ -69,6 +68,6 @@
       </footer>
     </div>
 
-  <script src="script.js" type="module"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
