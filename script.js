@@ -1,5 +1,4 @@
 import { translations } from "./translations.js";
-import { confessionGuide } from "../data/confession_data.js";
 
 const application = Stimulus.Application.start();
 
