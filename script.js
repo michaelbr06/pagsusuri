@@ -1,4 +1,5 @@
 import { translations } from "./translations.js";
+import { confessionGuide } from "../data/confession_data.js";
 
 const application = Stimulus.Application.start();
 
@@ -27,6 +28,25 @@ application.register(
     switchLanguage(event) {
       this.langValue = event.target.value;
       this.render();
+      if (!this.summaryViewTarget.classList.contains("hidden")) {
+        this.renderSummary();
+      }
+    }
+
+    renderSummary() {
+      const data = translations[this.langValue];
+      let listHtml = "<ul>";
+      let count = 0;
+      data.categories.forEach((cat) => {
+        cat.items.forEach((item) => {
+          if (this.selectionsValue[item.id]) {
+            listHtml += `<li>${item.text}</li>`;
+            count++;
+          }
+        });
+      });
+      listHtml += "</ul>";
+      this.summaryContentTarget.innerHTML = listHtml;
     }
 
     toggleSin(event) {
@@ -68,22 +88,19 @@ application.register(
     }
 
     submit() {
-      const data = translations[this.langValue];
-      let listHtml = "<ul>";
       let count = 0;
+      const data = translations[this.langValue];
       data.categories.forEach((cat) => {
         cat.items.forEach((item) => {
           if (this.selectionsValue[item.id]) {
-            listHtml += `<li>${item.text}</li>`;
             count++;
           }
         });
       });
-      listHtml += "</ul>";
 
       if (count === 0) return alert("Select at least one first.");
 
-      this.summaryContentTarget.innerHTML = listHtml;
+      this.renderSummary();
       this.toggleView();
     }
 
