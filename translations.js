@@ -27,7 +27,7 @@ const categoriesData = [
     },
     items: [
       {
-        id: "s1",
+        id: "G1",
         text: {
           en: "I was lazy or half-hearted in my prayers and daily duties to God.",
           tg: 'Tinamad ako o "nag-compliance" lang sa pagdarasal at sa mga obligasyon ko sa Diyos.',
@@ -35,7 +35,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s2",
+        id: "G2",
         text: {
           en: "I received Communion unworthily, broke the 1-hour fast or received our Lord in a state of mortal sin.",
           tg: "Naka-Communion ako nang hindi karapat-dapat—nalabag ko 'yung one-hour fast o kaya naman tumanggap ako habang may mortal sin.",
@@ -43,7 +43,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s3",
+        id: "G3",
         text: {
           en: "I intentionally withheld a serious sin in a past confession.",
           tg: "Sinadya kong itago yung mabigat na kasalanan nung huli akong nangumpisal.",
@@ -51,7 +51,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s4",
+        id: "G4",
         text: {
           en: "I entertained serious doubts, engaged in superstitions, or exposed myself to media contrary to my Faith.",
           tg: "Nagpa-dala ako sa duda, horoscope, o mga group at media na kontra sa Faith ko.",
@@ -59,7 +59,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s10",
+        id: "G5",
         text: {
           en: "I failed to do my usual prayers such as the Rosary on times I said I would.",
           tg: "Hindi ko nagawa yung mga routine na dasal ko gaya ng Rosaryo kahit nangako ako.",
@@ -67,7 +67,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s12",
+        id: "G6",
         text: {
           en: "I did not work in an orderly way to give greater glory to God.",
           tg: "Hindi naging maayos ang pagtatrabaho ko para sana maging alay sa Diyos.",
@@ -75,7 +75,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s13",
+        id: "G7",
         text: {
           en: "I failed to frequently realize that I am in God's presence.",
           tg: "Nakakalimutan kong kasama ko ang Diyos sa bawat sandali.",
@@ -83,7 +83,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s14",
+        id: "G8",
         text: {
           en: "I did not work with the happiness that comes from knowing I am a child of God.",
           tg: "Nagtrabaho ako nang walang galak, nakalimutan kong anak ako ng Diyos.",
@@ -91,7 +91,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s18",
+        id: "G9",
         text: {
           en: "I failed to try my best to fulfill the promises and resolutions I made to God.",
           tg: "Hindi ko talaga sineryoso o pinagbutihan na tuparin yung mga pangako at resolution ko sa Diyos.",
@@ -99,7 +99,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s22",
+        id: "G10",
         text: {
           en: "I took the name of God in vain or used it mockingly, jokingly, or angrily.",
           tg: "Ginamit ko ang pangalan ng Diyos nang walang galang, sa biro, o nung nagalit ako.",
@@ -107,7 +107,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s23",
+        id: "G11",
         text: {
           en: "I used the name of the Blessed Virgin Mary or the saints in an irreverent or mocking manner.",
           tg: "Binastos ko o ginawang biro ang pangalan ni Mama Mary o ng mga santo.",
@@ -115,7 +115,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s24",
+        id: "G12",
         text: {
           en: "I was a sponsor in baptism or ceremonies outside the Catholic Church.",
           tg: "Naging ninong/ninang ako sa binyag o seremonya na hindi sa Katoliko.",
@@ -123,7 +123,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s29",
+        id: "G13",
         text: {
           en: "I allowed myself to be distracted during Mass.",
           tg: "Nagpa-distract ako sa Misa—hindi ako nakinig at kung saan-saan ako tumitingin.",
@@ -131,7 +131,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s31",
+        id: "G14",
         text: {
           en: "I arrived at Mass so late that I failed my obligation.",
           tg: "Sobra akong nahuli sa Misa kaya hindi ko na talaga natupad ang obligasyon ko.",
@@ -139,7 +139,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s32",
+        id: "G15",
         text: {
           en: "I missed Sunday Mass and/or a Holy Day of Obligation (Dec 8, Dec 25 and/or Jan 1).",
           tg: "Lumiban ako sa Misa nung Linggo o nung mga Holy Day (Dec 8, 25, o Jan 1).",
@@ -147,7 +147,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s34",
+        id: "G16",
         text: {
           en: "I failed to help the Church in her necessities.",
           tg: "Hindi ako tumulong sa mga pangangailangan ng Simbahan kahit kaya ko naman.",
@@ -155,7 +155,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s35",
+        id: "G17",
         text: {
           en: "I did not fast or abstain on the prescribed days.",
           tg: "Hindi ako nag-ayuno o umiwas sa karne sa mga araw na iniutos ng Simbahan.",
@@ -163,7 +163,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s36",
+        id: "G18",
         text: {
           en: "I performed work or business that inhibited worship or rest.",
           tg: "Nagtrabaho o nag-negosyo ako na naging hadlang sa pagsimba o pahinga tuwing Linggo.",
@@ -181,7 +181,7 @@ const categoriesData = [
     },
     items: [
       {
-        id: "s6",
+        id: "N1",
         text: {
           en: "I refused to take advice or argued just to be right, disregarding others' feelings.",
           tg: "Ayaw kong makinig sa payo o nakikipag-talo lang para manalo, kahit nakakasakit na ng iba.",
@@ -189,7 +189,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s7",
+        id: "N2",
         text: {
           en: 'I acted as a "bossy" person or a bully to get my way.',
           tg: 'Naging "bossy" o bully ako para lang masunod ang gusto ko.',
@@ -197,7 +197,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s8",
+        id: "N3",
         text: {
           en: "I shifted the blame for my own mistakes onto others.",
           tg: "Nanisi ako ng ibang tao sa mga sarili kong pagkakamali.",
@@ -205,7 +205,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s9",
+        id: "N4",
         text: {
           en: "I held onto a grudge or am currently refusing to speak to someone.",
           tg: "Nagtanim ako ng galit o ayawkong kausapin ang isang tao dahil sa sama ng loob.",
@@ -213,7 +213,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s11",
+        id: "N5",
         text: {
           en: "I allowed myself to be influenced too much by what people might think or say.",
           tg: "Masyado akong nagpa-pressure sa sasabihin ng ibang tao kesa gawin ang dapat.",
@@ -221,7 +221,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s37",
+        id: "N6",
         text: {
           en: "I neglected to teach my children their prayers or provide a Christian education.",
           tg: "Pinabayaan kong hindi maturuan ng mga dasal o Kristiyanong turo ang mga anak ko.",
@@ -229,7 +229,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s38",
+        id: "N7",
         text: {
           en: "I failed to make my house a bright and cheerful Christian home.",
           tg: "Hindi ko pinagsikapang maging masaya at maaliwalas ang aming bahay bilang Kristiyanong tahanan.",
@@ -237,7 +237,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s39",
+        id: "N8",
         text: {
           en: "I gave my children bad example.",
           tg: "Nagpakita ako ng masamang halimbawa sa mga anak ko.",
@@ -245,7 +245,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s40",
+        id: "N9",
         text: {
           en: "I neglected to watch over my children's companions or media.",
           tg: "Hindi ko binantayan kung sino ang mga kasama ng mga anak ko o kung ano ang pinapanood nila.",
@@ -253,7 +253,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s41",
+        id: "N10",
         text: {
           en: "I failed to ensure my children received the Sacraments.",
           tg: "Hindi ko tiniyak na makatanggap ng mga Sakramento (Kumpisal, Communion, Confirmation) ang mga anak ko.",
@@ -261,7 +261,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s42",
+        id: "N11",
         text: {
           en: "I neglected family duties for work or social life.",
           tg: "Pinabayaan ko ang mga tungkulin ko sa pamilya dahil masyado akong nag-focus sa trabaho o barkada.",
@@ -269,7 +269,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s43",
+        id: "N12",
         text: {
           en: "I was disobedient or disrespectful toward my parents.",
           tg: "Naging suwail o bastos ako sa mga magulang ko.",
@@ -277,7 +277,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s44",
+        id: "N13",
         text: {
           en: "I neglected to help my parents in their needs or treated them with little affection.",
           tg: "Kinalimutan kong tulungan ang mga magulang ko o naging malamig/walang lambing sa kanila.",
@@ -285,7 +285,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s45",
+        id: "N14",
         text: {
           en: "I failed to make my house a bright and cheerful Christian home.",
           tg: "Hindi ko pinagsikapang gawing masaya o maaliwalas ang aming bahay sa pamamagitan ng aking halimbawa.",
@@ -293,7 +293,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s46",
+        id: "N15",
         text: {
           en: "I reacted proudly when corrected or had a disordered desire for independence.",
           tg: "Naging mapagmataas ako nung sinasaway at masyadong nagpumilit na maging independent sa maling paraan.",
@@ -301,7 +301,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s47",
+        id: "N16",
         text: {
           en: "I was unwilling to yield my personal preferences; I was selfish instead of generous.",
           tg: "Naging madamot ako at hindi nagpaubaya para maging masaya ang pamilya; sarili ko lang ang inisip ko.",
@@ -309,7 +309,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s48",
+        id: "N17",
         text: {
           en: "I neglected my house chores or quarreled with my siblings.",
           tg: "Pinabayaan ko ang mga gawaing bahay o nakipag-away ako sa mga kapatid ko.",
@@ -317,7 +317,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s49",
+        id: "N18",
         text: {
           en: "I easily got angry, lost my temper, or was envious of others.",
           tg: "Madaling uminit ang ulo ko, o nawalan ng pasensya, o nainggit sa ibang tao.",
@@ -325,7 +325,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s50",
+        id: "N19",
         text: {
           en: "I injured or took the life of someone, or I was reckless while driving.",
           tg: "Nakasakit ako o nakapatay ng tao, o kaya naging kaskasero sa pagmamaneho.",
@@ -333,7 +333,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s51",
+        id: "N20",
         text: {
           en: "I was an occasion of sin for others through my words, dress, or media.",
           tg: "Naging mitsa ako ng pagkakasala ng iba dahil sa pananalita, pananamit, o panonood ng masasamang palais.",
@@ -341,7 +341,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s52",
+        id: "N21",
         text: {
           en: "I neglected my health or attempted to take my own life.",
           tg: "Pinabayaan ko ang kalusugan ko o sinubukang saktan ang sarili ko.",
@@ -349,7 +349,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s53",
+        id: "N22",
         text: {
           en: "I mutilated myself or another.",
           tg: "Sinadya kong saktan o sirain ang bahagi ng katawan ko o ng ibang tao.",
@@ -357,7 +357,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s54",
+        id: "N23",
         text: {
           en: "I got drunk or took prohibited drugs.",
           tg: "Naglasing ako o gumamit ng pinagbabawal na gamot.",
@@ -365,7 +365,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s55",
+        id: "N24",
         text: {
           en: "I gave in to gluttony by eating or drinking more than was sufficient.",
           tg: "Naging matakaw ako at kumain o uminom nang sobra-sobra.",
@@ -373,7 +373,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s56",
+        id: "N25",
         text: {
           en: "I participated in physical violence.",
           tg: "Nakipag-away ako o gumamit ng dahas sa ibang tao.",
@@ -381,7 +381,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s57",
+        id: "N26",
         text: {
           en: "I consented to or took part in sterilization.",
           tg: "Pumayag o nakibahagi ako sa pagpapatali o sterilization.",
@@ -389,7 +389,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s58",
+        id: "N27",
         text: {
           en: "I consented to, recommended, or took part in an abortion.",
           tg: "Pumayag, nagmungkahi, o nakibahagi ako sa pagpapalaglag (abortion).",
@@ -397,7 +397,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s59",
+        id: "N28",
         text: {
           en: "I desired revenge or harbored hatred toward someone.",
           tg: "Naghangad ako ng higanti o nagkimkim ng galit sa kapwa.",
@@ -405,7 +405,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s60",
+        id: "N29",
         text: {
           en: "I insulted or teased others.",
           tg: "Namahiya ako o nanukso ng ibang tao.",
@@ -413,7 +413,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s61",
+        id: "N30",
         text: {
           en: 'I used my power or position to intimidate or "bully" someone.',
           tg: "Ginamit ko ang posisyon o kapangyarihan ko para manakot o mang-bully.",
@@ -421,7 +421,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s62",
+        id: "N31",
         text: {
           en: "I was bossy and tried to control people instead of collaborating.",
           tg: 'Naging "bossy" ako at pinilit kontrolin ang iba imbis na makipagtulungan.',
@@ -429,7 +429,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s63",
+        id: "N32",
         text: {
           en: "I started arguments just to prove I was right.",
           tg: "Nakipag-away ako para lang mapatunayang tama ako, kahit masira ang relasyon.",
@@ -437,7 +437,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s64",
+        id: "N33",
         text: {
           en: 'I was rude or "know-it-all" when disagreeing with someone.',
           tg: 'Naging bastos ako o nag-feeling "know-it-all" nung may hindi ako nakasundo.',
@@ -445,7 +445,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s73",
+        id: "N34",
         text: {
           en: "I made improper use of marriage or deprived my spouse of marital rights.",
           tg: "Inabuso ko ang pagsasama namin o pinagkaitan ang asawa ko sa kanyang karapatan sa kama.",
@@ -453,7 +453,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s78",
+        id: "N35",
         text: {
           en: "I used birth control or artificial means to prevent having children.",
           tg: "Gumamit ako ng birth control o artificial na paraan para iwasang magkaanak.",
@@ -461,7 +461,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s79",
+        id: "N36",
         text: {
           en: "I caused damage to the property of others.",
           tg: "Nakasira ako ng gamit o pag-aari ng ibang tao.",
@@ -469,7 +469,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s80",
+        id: "N37",
         text: {
           en: "I caused others to waste time (disturbing them/unpunctual).",
           tg: "Naka-abala ako sa trabaho ng iba o naging dahilan ng pagka-sayang ng oras nila dahil hindi ako on-time.",
@@ -477,7 +477,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s81",
+        id: "N38",
         text: {
           en: "I failed to give alms according to my capacity.",
           tg: "Hindi ako nag-share sa mga nangangailangan kahit may kakayahan naman ako.",
@@ -485,7 +485,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s82",
+        id: "N39",
         text: {
           en: "I gave in to laziness in my work or studies.",
           tg: "Nagpadala ako sa katamaran sa trabaho o sa pag-aaral ko.",
@@ -493,7 +493,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s83",
+        id: "N40",
         text: {
           en: "I harmed others through deception or fraud in business.",
           tg: "Nanloko o nang-isa ako ng kapwa sa negosyo o sa mga transaksyon.",
@@ -501,7 +501,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s84",
+        id: "N41",
         text: {
           en: "I neglected to pay my debts or retained stolen things.",
           tg: "Hindi ako nagbayad ng utang o itinago ko ang mga bagay na hindi naman sa akin.",
@@ -509,7 +509,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s85",
+        id: "N42",
         text: {
           en: "I spent beyond my means due to vanity or caprice.",
           tg: "Gumastos ako nang higit sa kinikita ko dahil lang sa luho o arte.",
@@ -517,7 +517,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s86",
+        id: "N43",
         text: {
           en: "I stole an object or money and failed to return it.",
           tg: "Nagnakaw ako ng gamit o pera at hindi ko na ito ibinalik.",
@@ -525,7 +525,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s87",
+        id: "N44",
         text: {
           en: "I was greedy or held a materialistic view of life.",
           tg: "Naging sakim ako o naging masyadong mukhang-pera/materialistic sa buhay.",
@@ -533,7 +533,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s88",
+        id: "N45",
         text: {
           en: "I engaged in gossip, back-biting, or tale-telling.",
           tg: "Nakisali ako sa tsismis, paninira, o pagkakalat ng kung anu-anong kwento.",
@@ -541,7 +541,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s89",
+        id: "N46",
         text: {
           en: "I judged others rashly or suspected others falsely.",
           tg: "Nanghusga agad ako o nagbintang sa iba nang walang basehan.",
@@ -549,7 +549,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s90",
+        id: "N47",
         text: {
           en: "I revealed secrets without due cause.",
           tg: "Nagkalat ako ng mga sikreto kahit wala namang dahilan para gawin 'yun.",
@@ -557,7 +557,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s91",
+        id: "N48",
         text: {
           en: "I sinned by detraction or calumny (derogatory lies).",
           tg: "Nanira ako sa pamamagitan ng pagkalat ng baho ng iba o pag-iimbento ng kasinungalingan.",
@@ -565,7 +565,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s92",
+        id: "N49",
         text: {
           en: "I told lies and failed to repair the damage resulted from them.",
           tg: "Nagsinungaling ako at hindi ko inayos ang gulong idinulot nito.",
@@ -573,7 +573,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s93",
+        id: "N50",
         text: {
           en: "I unjustly accused others.",
           tg: "Nagbintang ako ng maling paratang sa ibang tao.",
@@ -581,7 +581,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s94",
+        id: "N51",
         text: {
           en: 'I am giving someone the "silent treatment" or refusing to forgive.',
           tg: 'Tinu-toyo" ko o hindi ko kinakausap ang isang tao dahil ayaw ko siyang patawarin.',
@@ -589,7 +589,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s95",
+        id: "N52",
         text: {
           en: "I have let a grudge last for a long time without making peace.",
           tg: "Nagtanim ako ng galit nang matagal at hindi ako gumawa ng paraan para makipag-ayos.",
@@ -597,7 +597,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s96",
+        id: "N53",
         text: {
           en: "I let my insecurities cause me to react over-sensitively or lash out.",
           tg: 'Masyado akong naging "pikon" o "thin-skinned" kaya ako nagalit o nakapanakit ng iba.',
@@ -605,7 +605,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s97",
+        id: "N54",
         text: {
           en: "I spoke badly about someone behind their back.",
           tg: "Nagsalita ako nang masama tungod sa likod ng ibang tao.",
@@ -613,7 +613,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s98",
+        id: "N55",
         text: {
           en: "I lied about someone to ruin their reputation.",
           tg: "Nagsinungaling ako para lang masira ang pagkatao o reputasyon ng iba.",
@@ -621,7 +621,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s99",
+        id: "N56",
         text: {
           en: "I shared someone's private faults with others just to gossip.",
           tg: "Pinagkalat ko ang mga personal na pagkakamali ng iba para lang makipag-tsismisan.",
@@ -629,7 +629,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s100",
+        id: "N57",
         text: {
           en: "I blamed others for my own mistakes to protect my ego.",
           tg: "Nanisi ako ng iba sa sarili kong mali para lang hindi ako mapahiya.",
@@ -637,7 +637,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s5",
+        id: "N58",
         text: {
           en: 'I obsessed over getting credit, being noticed, or always needing to be "first."',
           tg: 'Uhaw ako sa recognition, laging gustong mapansin, o kailangang laging ako ang "una."',
@@ -645,7 +645,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s15",
+        id: "N59",
         text: {
           en: "I was not generous with my time in carrying out tasks entrusted to me.",
           tg: "Naging madamot ako sa oras ko sa mga gawaing binigay sa akin.",
@@ -653,7 +653,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s17",
+        id: "N60",
         text: {
           en: "I allowed myself to be gloomy.",
           tg: "Hinayaan ko ang sarili kong lamunin ng lungkot o negativity.",
@@ -661,7 +661,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s19",
+        id: "N61",
         text: {
           en: "I failed to carry out a quiet and persevering work of apostolate among my friends.",
           tg: 'Hindi ako naging matiyaga o "consistent" sa pag-share ng Faith sa mga kaibigan ko sa tahimik na paraan.',
@@ -669,7 +669,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s20",
+        id: "N62",
         text: {
           en: "I did not look for opportunities in my work and social life to carry out an effective apostolate.",
           tg: "Hindi ako naghanap ng chance sa trabaho o sa gimmick para ilapit ang iba sa Diyos.",
@@ -677,7 +677,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s21",
+        id: "N63",
         text: {
           en: "I have not tried to attract any friends to the apostolate.",
           tg: "Hindi ko man lang sinubukang yayain o i-encourage ang mga kaibigan ko sa mga gawaing pang-Simbahan.",
@@ -685,7 +685,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s25",
+        id: "N64",
         text: {
           en: "I told a lie under oath.",
           tg: "Nagsinungaling ako habang nanunumpa (sa harap ng Diyos o sa batas).",
@@ -693,7 +693,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s26",
+        id: "N65",
         text: {
           en: "I was not concerned enough about my professional development or the study necessary to be effective in my work.",
           tg: "Pinabayaan ko ang pag-aaral o pag-improve sa trabaho ko para maging mahusay sa ginagawa ko.",
@@ -701,7 +701,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s27",
+        id: "N66",
         text: {
           en: "I broke my private or public vows.",
           tg: "Sinira ko ang mga binitawan kong panata o sumpa (sa Diyos o sa tao).",
@@ -709,7 +709,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s28",
+        id: "N67",
         text: {
           en: "I wasted my time.",
           tg: "Sinayang ko lang ang oras ko sa mga walang kwentang bagay.",
@@ -717,7 +717,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s30",
+        id: "N68",
         text: {
           en: "I deceived myself by leaving work for later.",
           tg: "Niloko ko ang sarili ko; ipinagpabukas ang trabaho imbis na tapusin na agad.",
@@ -725,7 +725,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s33",
+        id: "N69",
         text: {
           en: "I misbehaved or maintained improper posture or dress.",
           tg: "Hindi maayos ang kilos, postura, o suot ko sa loob ng simbahan.",
@@ -733,7 +733,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s65",
+        id: "N70",
         text: {
           en: "I committed impure acts, such as masturbation (alone or with others).",
           tg: 'Gumawa ako ng malaswang bagay, mag-isa man o may kasama, gaya ng "self-pleasure."',
@@ -741,7 +741,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s66",
+        id: "N71",
         text: {
           en: "I looked at pornography or watched shows with impure content.",
           tg: "Nanood ako ng bold (pornography) o mga palais na may mga malalaswang eksena.",
@@ -749,7 +749,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s67",
+        id: "N72",
         text: {
           en: "I took pleasure in entertaining impure thoughts or desires.",
           tg: "Pinatulan ko at dinamdam ang mga malalaswang isipin o pagnanasa.",
@@ -757,7 +757,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s68",
+        id: "N73",
         text: {
           en: "I dressed immodestly or was excessively concerned with my appearance.",
           tg: "Nagsuot ako ng malaswang damit o naging masyadong banidoso/atado sa hitsura ko.",
@@ -765,7 +765,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s69",
+        id: "N74",
         text: {
           en: "I used vulgar language or listened to impure jokes and stories.",
           tg: "Nagmura ako o nakinig at nagkwento ng mga malalaswang joke.",
@@ -773,7 +773,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s70",
+        id: "N75",
         text: {
           en: "I consented to evil desires against the virtue of purity.",
           tg: "Hinayaan kong malunod ako sa mga maling pagnanasa na labag sa kalinisan.",
@@ -781,7 +781,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s71",
+        id: "N76",
         text: {
           en: "I engaged in or started impure conversations.",
           tg: "Nakisali ako o nag-umpisa ng mga bastos na usapan.",
@@ -789,7 +789,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s72",
+        id: "N77",
         text: {
           en: "I entertained or recalled indecent and impure thoughts.",
           tg: "Inisip ko o binalikan sa alaala ang mga bastos na bagay.",
@@ -797,7 +797,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s74",
+        id: "N78",
         text: {
           en: "I maintained friendships that were habitual occasions of sin.",
           tg: "Nakipag-barkada ako sa mga tawo na nagiging dahilan para magkasala ako palagi.",
@@ -805,7 +805,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s75",
+        id: "N79",
         text: {
           en: "I neglected modesty and decency in my behavior.",
           tg: "Pinabayaan ko ang pagiging disente o kagalang-galang sa mga galaw ko.",
@@ -813,7 +813,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s76",
+        id: "N80",
         text: {
           en: "I put myself in occasions of sin, such as being alone in secluded places.",
           tg: "Sinadya kong ilagay ang sarili ko sa tukso, gaya ng pakikipag-solo sa maling lugar.",
@@ -821,7 +821,7 @@ const categoriesData = [
         },
       },
       {
-        id: "s77",
+        id: "N81",
         text: {
           en: "I sought out entertainment that served as an occasion of sin.",
           tg: "Naghanap ako ng mga libangan na alam kong magdadala sa akin sa pagkakasala.",
