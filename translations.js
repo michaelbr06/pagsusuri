@@ -14,6 +14,16 @@ const uiData = {
     tg: "Gabay sa Kumpisal",
     bs: "Gabay sa Kompisal",
   },
+  copyListBtn: {
+    en: "Copy List",
+    tg: "Kopyahin ang Listahan",
+    bs: "Kopyaha ang Listahan",
+  },
+  copyListCopied: {
+    en: "List copied!",
+    tg: "Nakopya ang listahan!",
+    bs: "Nakopya ang listahan!",
+  },
   resetBtn: { en: "Reset", tg: "Burahin", bs: "I-reset" },
   summaryTitle: {
     en: "My Confession List",

@@ -19,6 +19,7 @@ application.register(
       "confessionGuideTitle",
       "confessionGuideContent",
       "confessionGuideBtn",
+      "copyListBtn",
     ];
     static values = { lang: String, selections: Object };
 
@@ -34,6 +35,7 @@ application.register(
       const data = translations[this.langValue];
       if (!this.summaryViewTarget.classList.contains("hidden")) {
         this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
+        this.copyListBtnTarget.innerText = data.ui.copyListBtn;
         this.renderSummary();
       }
       if (!this.confessionGuideViewTarget.classList.contains("hidden")) {
@@ -110,6 +112,7 @@ application.register(
       if (count === 0) return alert("Select at least one first.");
 
       this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
+      this.copyListBtnTarget.innerText = data.ui.copyListBtn;
       this.renderSummary();
       this.toggleView();
     }
@@ -193,6 +196,24 @@ application.register(
       this.confessionGuideViewTarget.classList.add("hidden");
       this.summaryViewTarget.classList.remove("hidden");
       window.scrollTo(0, 0);
+    }
+
+    copyList() {
+      const data = translations[this.langValue];
+      let text = `${data.ui.summaryTitle}\n\n`;
+      data.categories.forEach((cat) => {
+        cat.items.forEach((item) => {
+          if (this.selectionsValue[item.id]) {
+            text += `- ${item.text}\n`;
+          }
+        });
+      });
+      const msg = data.ui.copyListCopied;
+      navigator.clipboard.writeText(text).then(() => {
+        alert(msg);
+      }).catch(() => {
+        alert(msg);
+      });
     }
 
     goHome() {
