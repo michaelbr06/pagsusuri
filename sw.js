@@ -1,4 +1,4 @@
-const CACHE_NAME = "pagsusuri-v0.2";
+const CACHE_NAME = "pagsusuri-v0.1.3";
 const ASSETS = [
   "./",
   "./index.html",
