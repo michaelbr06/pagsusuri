@@ -19,11 +19,11 @@ const uiData = {
 
 const categoriesData = [
   {
-    id: "c1",
+    id: "god",
     header: {
-      en: "1st Commandment — I am the LORD your God. You shall not have strange gods before me.",
-      tg: "Ika-1 Utos — Ako ang PANGINOON mong Diyos. Huwag kang magkakaroon ng ibang diyos bukod sa Akin.",
-      bs: "Ika-1 Sugo — Ako ang GINOO nga imong Diyos. Ayaw pagbaton og laing mga diyos gawas Kanako.",
+      en: "1st Commandment — Love God with all your heart, with all your soul, and with all your mind.",
+      tg: "Ika-1 Utos — Ibigin mo ang Diyos nang buong pusong, buong kaluluwa, at buong isipan.",
+      bs: "Ika-1 Sugo — Higugma ang Ginoo nga bug-os nga kasingkasing, bug-os nga kalag, ug bug-os nga hunahuna.",
     },
     items: [
       {
@@ -61,41 +61,9 @@ const categoriesData = [
       {
         id: "s5",
         text: {
-          en: 'I obsessed over getting credit, being noticed, or always needing to be "first.',
-          tg: 'Uhaw ako sa recognition, laging gustong mapansin, o kailangang laging ako ang "una.',
+          en: 'I obsessed over getting credit, being noticed, or always needing to be "first."',
+          tg: 'Uhaw ako sa recognition, laging gustong mapansin, o kailangang laging ako ang "una."',
           bs: "Gusto gyud ko permi mapansin, ma-ganid sa credit, ug gusto permi mag-una.",
-        },
-      },
-      {
-        id: "s6",
-        text: {
-          en: "I refused to take advice or argued just to be right, disregarding others’ feelings.",
-          tg: "Ayaw kong makinig sa payo o nakikipag-talo lang para manalo, kahit nakakasakit na ng iba.",
-          bs: "Wala ko naminaw og advice o nakig-lalis lang para ingnon nga sakto, bisan nakasakit na sa uban.",
-        },
-      },
-      {
-        id: "s7",
-        text: {
-          en: 'I acted as a "bossy" person or a bully to get my way.',
-          tg: 'Naging "bossy" o bully ako para lang masunod ang gusto ko.',
-          bs: 'Nahimo kong "bossy" o bully para lang makuha akong gusto.',
-        },
-      },
-      {
-        id: "s8",
-        text: {
-          en: "I shifted the blame for my own mistakes onto others.",
-          tg: "Nanisi ako ng ibang tao sa mga sarili kong pagkakamali.",
-          bs: "Namasol ko sa uban sa akong kaugalingon nga mga sayop.",
-        },
-      },
-      {
-        id: "s9",
-        text: {
-          en: "I held onto a grudge or am currently refusing to speak to someone.",
-          tg: "Nagtanim ako ng galit o ayaw kong kausapin ang isang tao dahil sa sama ng loob.",
-          bs: "Naghupot ko og dumot o wala nakig-storya sa usa ka tawo tungod sa kaguol.",
         },
       },
       {
@@ -104,14 +72,6 @@ const categoriesData = [
           en: "I failed to do my usual prayers such as the Rosary on times I said I would.",
           tg: "Hindi ko nagawa yung mga routine na dasal ko gaya ng Rosaryo kahit nangako ako.",
           bs: "Wala nako nahimo ang akong naandan nga pag-ampo sama sa Rosaryo bisan nisaad ko.",
-        },
-      },
-      {
-        id: "s11",
-        text: {
-          en: "I allowed myself to be influenced too much by what people might think or say.",
-          tg: "Masyado akong nagpa-pressure sa sasabihin ng ibang tao kesa gawin ang dapat.",
-          bs: "Sige lang ko’g huna-huna sa isulti sa uban imbis nga buhaton ang sakto.",
         },
       },
       {
@@ -125,7 +85,7 @@ const categoriesData = [
       {
         id: "s13",
         text: {
-          en: "I failed to frequently realize that I am in God’s presence.",
+          en: "I failed to frequently realize that I am in God's presence.",
           tg: "Nakakalimutan kong kasama ko ang Diyos sa bawat sandali.",
           bs: "Nakalimot ko permi nga naa ang Ginoo sa akong kiliran.",
         },
@@ -162,16 +122,6 @@ const categoriesData = [
           bs: "Gipasagdan nako akong kaugalingon nga malubog sa kaguol o pagka-badtrip.",
         },
       },
-    ],
-  },
-  {
-    id: "c2",
-    header: {
-      en: "2nd Commandment — You shall not take the name of the LORD your God in vain.",
-      tg: "Ika-2 Utos — Huwag mong babanggitin ang pangalan ng PANGINOON mong Diyos sa walang kabuluhan.",
-      bs: "Ika-2 Sugo — Ayaw gamita ang ngalan sa GINOO nga imong Diyos sa walay pulos.",
-    },
-    items: [
       {
         id: "s18",
         text: {
@@ -244,16 +194,6 @@ const categoriesData = [
           bs: "Wala ko nag-atiman sa akong pag-eskwela o pag-improve sa trabaho para mag-maayo ko sa akong agi.",
         },
       },
-    ],
-  },
-  {
-    id: "c3",
-    header: {
-      en: "3rd Commandment — Remember to keep holy the LORD'S Day.",
-      tg: "Ika-3 Utos — Pangilin mo ang araw ng PANGINOON.",
-      bs: "Ika-3 Sugo — Hinumdumi ang pagbalaan sa adlaw sa GINOO.",
-    },
-    items: [
       {
         id: "s27",
         text: {
@@ -334,16 +274,152 @@ const categoriesData = [
           bs: "Nagtrabaho o nag-negosyo ko nga nakababag sa akong pagsimba o pagpahuway sa adlaw sa Ginoo.",
         },
       },
+      {
+        id: "s65",
+        text: {
+          en: "I committed impure acts, such as masturbation (alone or with others).",
+          tg: 'Gumawa ako ng malaswang bagay, mag-isa man o may kasama, gaya ng "self-pleasure."',
+          bs: "Naghimo ko og malaw-ay nga mga buhat, sa akong kaugalingon o uban sa uban, sama sa masturbation.",
+        },
+      },
+      {
+        id: "s66",
+        text: {
+          en: "I looked at pornography or watched shows with impure content.",
+          tg: "Nanood ako ng bold (pornography) o mga palais na may mga malalaswang eksena.",
+          bs: "Nagtan-aw ko og bold (pornography) o mga salida nga naay malaw-ay nga sulod.",
+        },
+      },
+      {
+        id: "s67",
+        text: {
+          en: "I took pleasure in entertaining impure thoughts or desires.",
+          tg: "Pinatulan ko at dinamdam ang mga malalaswang isipin o pagnanasa.",
+          bs: "Nagpatuyang ko sa paghuna-huna og mga malaw-ay nga mga butang.",
+        },
+      },
+      {
+        id: "s68",
+        text: {
+          en: "I dressed immodestly or was excessively concerned with my appearance.",
+          tg: "Nagsuot ako ng malaswang damit o naging masyadong banidoso/atado sa hitsura ko.",
+          bs: "Nagsuot ko og mga sinina nga law-ay tan-awon o sobra ra akong pag-atiman sa akong hitsura.",
+        },
+      },
+      {
+        id: "s69",
+        text: {
+          en: "I used vulgar language or listened to impure jokes and stories.",
+          tg: "Nagmura ako o nakinig at nagkwento ng mga malalaswang joke.",
+          bs: "Naggamit ko og mga malaw-ay nga pulong o naminaw ug nag-istorya og mga bastos nga komedya.",
+        },
+      },
+      {
+        id: "s70",
+        text: {
+          en: "I consented to evil desires against the virtue of purity.",
+          tg: "Hinayaan kong malunod ako sa mga maling pagnanasa na labag sa kalinisan.",
+          bs: "Nisugot o nagpadaog ko sa mga dautang tinguha batok sa kaputli.",
+        },
+      },
+      {
+        id: "s71",
+        text: {
+          en: "I engaged in or started impure conversations.",
+          tg: "Nakisali ako o nag-umpisa ng mga bastos na usapan.",
+          bs: "Niapil ko o nag-una-una og mga malaw-ay nga storya.",
+        },
+      },
+      {
+        id: "s72",
+        text: {
+          en: "I entertained or recalled indecent and impure thoughts.",
+          tg: "Inisip ko o binalikan sa alaala ang mga bastos na bagay.",
+          bs: "Naghuna-huna o naghandom ko sa mga malaw-ay nga mga butang.",
+        },
+      },
+      {
+        id: "s74",
+        text: {
+          en: "I maintained friendships that were habitual occasions of sin.",
+          tg: "Nakipag-barkada ako sa mga tawo na nagiging dahilan para magkasala ako palagi.",
+          bs: "Nakig-migo ko sa mga tawo nga permi makapa-angin nako sa pagpakasala.",
+        },
+      },
+      {
+        id: "s75",
+        text: {
+          en: "I neglected modesty and decency in my behavior.",
+          tg: "Pinabayaan ko ang pagiging disente o kagalang-galang sa mga galaw ko.",
+          bs: "Napasagdan nako ang pagka-desente o matinahuron sa akong mga linihokan.",
+        },
+      },
+      {
+        id: "s76",
+        text: {
+          en: "I put myself in occasions of sin, such as being alone in secluded places.",
+          tg: "Sinadya kong ilagay ang sarili ko sa tukso, gaya ng pakikipag-solo sa maling lugar.",
+          bs: "Gibutang nako akong kaugalingon sa tentasyon, sama sa pagpakig-solo sa hilit nga dapit.",
+        },
+      },
+      {
+        id: "s77",
+        text: {
+          en: "I sought out entertainment that served as an occasion of sin.",
+          tg: "Naghanap ako ng mga libangan na alam kong magdadala sa akin sa pagkakasala.",
+          bs: "Nangita ko og kalingawan nga nahimong dalan para makasala ko.",
+        },
+      },
     ],
   },
   {
-    id: "c4-p",
+    id: "neighbor",
     header: {
-      en: "4th Commandment — Honor your father and your mother. (For Parents)",
-      tg: "Ika-4 na Utos — Igalang mo ang iyong ama at ina. (Para sa Magulang)",
-      bs: "Ika-4 nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga ginikanan)",
+      en: "2nd Commandment — Love your neighbor as yourself.",
+      tg: "Ika-2 Utos — Ibigin mo ang iyong kapwa tulad ng pagmamahal mo sa sarili mo.",
+      bs: "Ika-2 Sugo — Higugma ang imong isigkatawo ingon sa imong kaugalingon.",
     },
     items: [
+      {
+        id: "s6",
+        text: {
+          en: "I refused to take advice or argued just to be right, disregarding others' feelings.",
+          tg: "Ayaw kong makinig sa payo o nakikipag-talo lang para manalo, kahit nakakasakit na ng iba.",
+          bs: "Wala ko naminaw og advice o nakig-lalis lang para ingnon nga sakto, bisan nakasakit na sa uban.",
+        },
+      },
+      {
+        id: "s7",
+        text: {
+          en: 'I acted as a "bossy" person or a bully to get my way.',
+          tg: 'Naging "bossy" o bully ako para lang masunod ang gusto ko.',
+          bs: 'Nahimo kong "bossy" o bully para lang makuha akong gusto.',
+        },
+      },
+      {
+        id: "s8",
+        text: {
+          en: "I shifted the blame for my own mistakes onto others.",
+          tg: "Nanisi ako ng ibang tao sa mga sarili kong pagkakamali.",
+          bs: "Namasol ko sa uban sa akong kaugalingon nga mga sayop.",
+        },
+      },
+      {
+        id: "s9",
+        text: {
+          en: "I held onto a grudge or am currently refusing to speak to someone.",
+          tg: "Nagtanim ako ng galit o ayawkong kausapin ang isang tao dahil sa sama ng loob.",
+          bs: "Naghupot ko og dumot o wala nakig-storya sa usa ka tawo tungod sa kaguol.",
+        },
+      },
+      {
+        id: "s11",
+        text: {
+          en: "I allowed myself to be influenced too much by what people might think or say.",
+          tg: "Masyado akong nagpa-pressure sa sasabihin ng ibang tao kesa gawin ang dapat.",
+          bs: "Sige lang ko'g huna-huna sa isulti sa uban imbis nga buhaton ang sakto.",
+        },
+      },
       {
         id: "s37",
         text: {
@@ -392,18 +468,6 @@ const categoriesData = [
           bs: "Napasagdan nako akong obligasyon sa pamilya tungod sa sobrang pag-focus sa trabaho o social life.",
         },
       },
-
-      //Add above here
-    ],
-  },
-  {
-    id: "c4-c",
-    header: {
-      en: "4th Commandment — Honor your father and your mother. (For Children)",
-      tg: "Ika-4 na Utos — Igalang mo ang iyong ama at ina. (Para sa mga Anak)",
-      bs: "Ika-4 nga Sugo — Tahura ang imong amahan ug inahan. (Para sa mga Bata)",
-    },
-    items: [
       {
         id: "s43",
         text: {
@@ -417,7 +481,7 @@ const categoriesData = [
         text: {
           en: "I neglected to help my parents in their needs or treated them with little affection.",
           tg: "Kinalimutan kong tulungan ang mga magulang ko o naging malamig/walang lambing sa kanila.",
-          bs: "Wala nako natabangan akong mga ginikanan sa ilang kinahanglan o wala nako sila gipakitaag pagpangga.",
+          bs: "Wala nako natabangan akong mga ginikiran sa ilang kinahanglan o wala nako sila gipakitaag pagpangga.",
         },
       },
       {
@@ -452,16 +516,6 @@ const categoriesData = [
           bs: "Napasagdan nako ang mga buluhaton sa balay o nakig-away ko sa akong mga igsoon.",
         },
       },
-    ],
-  },
-  {
-    id: "c5",
-    header: {
-      en: "5th Commandment — You shall not kill.",
-      tg: "Ika-5 Utos — Huwag kang papatay.",
-      bs: "Ika-5 nga Sugo — Ayaw pagpatay.",
-    },
-    items: [
       {
         id: "s49",
         text: {
@@ -482,7 +536,7 @@ const categoriesData = [
         id: "s51",
         text: {
           en: "I was an occasion of sin for others through my words, dress, or media.",
-          tg: "Naging mitsa ako ng pagkakasala ng iba dahil sa pananalita, pananamit, o panonood ng masasamang palabas.",
+          tg: "Naging mitsa ako ng pagkakasala ng iba dahil sa pananalita, pananamit, o panonood ng masasamang palais.",
           bs: "Nahimo kong hinungdan sa sala sa uban tungod sa akong storya, sinuotan, o pag-aghat sa mga bati nga salida.",
         },
       },
@@ -590,118 +644,12 @@ const categoriesData = [
           bs: 'Nahimo kong bastos o "bright-bright" sa dihang nakig-batok ko sa huna-huna sa uban.',
         },
       },
-    ],
-  },
-  {
-    id: "c6-9",
-    header: {
-      en: "6th and 9th Commandment — You shall not commit adultery and not covet your neighbor's wife.",
-      tg: "Ika-6 at ika-9 na Utos — Huwag kang makikiapid at huwag kang magnanasa sa asawa ng iyong kapwa.",
-      bs: "Ikaunom ug ikasiyam nga Sugo — Ayaw pagpanapaw ug ayaw tinguhaa ang asawa sa imong isigkatawo.",
-    },
-    items: [
-      {
-        id: "s65",
-        text: {
-          en: "I committed impure acts, such as masturbation (alone or with others).",
-          tg: 'Gumawa ako ng malaswang bagay, mag-isa man o may kasama, gaya ng "self-pleasure\".',
-          bs: "Naghimo ko og malaw-ay nga mga buhat, sa akong kaugalingon o uban sa uban, sama sa masturbation.",
-        },
-      },
-      {
-        id: "s66",
-        text: {
-          en: "I looked at pornography or watched shows with impure content.",
-          tg: "Nanood ako ng bold (pornography) o mga palabas na may mga malalaswang eksena.",
-          bs: "Nagtan-aw ko og bold (pornography) o mga salida nga naay malaw-ay nga sulod.",
-        },
-      },
-      {
-        id: "s67",
-        text: {
-          en: "I took pleasure in entertaining impure thoughts or desires.",
-          tg: "Pinatulan ko at dinamdam ang mga malalaswang isipin o pagnanasa.",
-          bs: "Nagpatuyang ko sa paghuna-huna og mga malaw-ay nga mga butang.",
-        },
-      },
-      {
-        id: "s68",
-        text: {
-          en: "I dressed immodestly or was excessively concerned with my appearance.",
-          tg: "Nagsuot ako ng malaswang damit o naging masyadong banidoso/atado sa hitsura ko.",
-          bs: "Nagsuot ko og mga sinina nga law-ay tan-awon o sobra ra akong pag-atiman sa akong hitsura.",
-        },
-      },
-      {
-        id: "s69",
-        text: {
-          en: "I used vulgar language or listened to impure jokes and stories.",
-          tg: "Nagmura ako o nakinig at nagkwento ng mga malalaswang joke.",
-          bs: "Naggamit ko og mga malaw-ay nga pulong o naminaw ug nag-istorya og mga bastos nga komedya.",
-        },
-      },
-      {
-        id: "s70",
-        text: {
-          en: "I consented to evil desires against the virtue of purity.",
-          tg: "Hinayaan kong malunod ako sa mga maling pagnanasa na labag sa kalinisan.",
-          bs: "Nisugot o nagpadaog ko sa mga dautang tinguha batok sa kaputli.",
-        },
-      },
-      {
-        id: "s71",
-        text: {
-          en: "I engaged in or started impure conversations.",
-          tg: "Nakisali ako o nag-umpisa ng mga bastos na usapan.",
-          bs: "Niapil ko o nag-una-una og mga malaw-ay nga storya.",
-        },
-      },
-      {
-        id: "s72",
-        text: {
-          en: "I entertained or recalled indecent and impure thoughts.",
-          tg: "Inisip ko o binalikan sa alaala ang mga bastos na bagay.",
-          bs: "Naghuna-huna o naghandom ko sa mga malaw-ay nga mga butang.",
-        },
-      },
       {
         id: "s73",
         text: {
           en: "I made improper use of marriage or deprived my spouse of marital rights.",
           tg: "Inabuso ko ang pagsasama namin o pinagkaitan ang asawa ko sa kanyang karapatan sa kama.",
           bs: "Wala nako gigamit sa sakto ang kaminyoon o gihikawan nako akong asawa sa iyang katungod sa kaminyoon.",
-        },
-      },
-      {
-        id: "s74",
-        text: {
-          en: "I maintained friendships that were habitual occasions of sin.",
-          tg: "Nakipag-barkada ako sa mga tawo na nagiging dahilan para magkasala ako palagi.",
-          bs: "Nakig-migo ko sa mga tawo nga permi makapa-angin nako sa pagpakasala.",
-        },
-      },
-      {
-        id: "s75",
-        text: {
-          en: "I neglected modesty and decency in my behavior.",
-          tg: "Pinabayaan ko ang pagiging disente o kagalang-galang sa mga galaw ko.",
-          bs: "Napasagdan nako ang pagka-desente o matinahuron sa akong mga linihokan.",
-        },
-      },
-      {
-        id: "s76",
-        text: {
-          en: "I put myself in occasions of sin, such as being alone in secluded places.",
-          tg: "Sinadya kong ilagay ang sarili ko sa tukso, gaya ng pakikipag-solo sa maling lugar.",
-          bs: "Gibutang nako akong kaugalingon sa tentasyon, sama sa pagpakig-solo sa hilit nga dapit.",
-        },
-      },
-      {
-        id: "s77",
-        text: {
-          en: "I sought out entertainment that served as an occasion of sin.",
-          tg: "Naghanap ako ng mga libangan na alam kong magdadala sa akin sa pagkakasala.",
-          bs: "Nangita ko og kalingawan nga nahimong dalan para makasala ko.",
         },
       },
       {
@@ -712,16 +660,6 @@ const categoriesData = [
           bs: "Nigamit ko og birth control o artificial nga pamaagi para malikayan ang pagbaton og anak.",
         },
       },
-    ],
-  },
-  {
-    id: "c7-10",
-    header: {
-      en: "7th Commandment — You shall not steal and not covet your neighbor's goods",
-      tg: "Ika-7 at Ika-10 na Utos — Huwag kang magnanakaw at huwag kang magnanasa sa pag-aari ng iyong kapwa",
-      bs: "Ika-7 ug Ika-10 nga Sugo — Ayaw pagkawat ug ayaw tinguhaa ang mga kabtangan sa imong isigkatawo.",
-    },
-    items: [
       {
         id: "s79",
         text: {
@@ -794,16 +732,6 @@ const categoriesData = [
           bs: "Nahimo kong dalo o sobra ra ka materialistic sa akong panglantaw sa kinabuhi.",
         },
       },
-    ],
-  },
-  {
-    id: "c8",
-    header: {
-      en: "8th Commandment — You shall not bear false witness against your neighbor.",
-      tg: "Ika-8 Utos — Huwag kang magbibintang at huwag kang magsisinungaling.",
-      bs: "Ika-8 nga Sugo — Ayaw pagpamatuod og bakak batok sa imong isigkatawo.",
-    },
-    items: [
       {
         id: "s88",
         text: {
@@ -895,7 +823,7 @@ const categoriesData = [
       {
         id: "s99",
         text: {
-          en: "I shared someone’s private faults with others just to gossip.",
+          en: "I shared someone's private faults with others just to gossip.",
           tg: "Pinagkalat ko ang mga personal na pagkakamali ng iba para lang makipag-tsismisan.",
           bs: "Gipang-istorya nako ang mga sekreto o sayop sa uban para lang naay malibak.",
         },
@@ -910,8 +838,6 @@ const categoriesData = [
       },
     ],
   },
-
-  // Add Category c2, c3, etc. here in the same format
 ];
 
 /**
