@@ -36,14 +36,12 @@ const uiData = {
     bs: "Gabay sa Kompisal",
   },
   confessionGuide: {
-    en: `In the Name of the Father, and of the Son, and of the Holy Spirit. Amen.
-
-1. GREETING THE PRIEST
-   Good evening/afternoon, Father.
+    en: `1. GREET THE PRIEST
 
 2. SIGN OF THE CROSS
-   Priest: May God give you, my child, pardon and peace.
-   Penitent: Amen.
+Penitent: In the name of the Father, and of the Son, and of the Holy Spirit (as you make the sign of the Cross)
+
+Priest: May the Lord be in your heart and help you confess your sins with true sorrow.
 
 3. CONFESSION
    Bless me Father for I have sinned, it has been [state how long since your last confession]. Here are my sins:
@@ -63,10 +61,10 @@ const uiData = {
 
    or say:
    O my God, I am heartily sorry for having offended Thee, and I detest all my sins, because I dread the loss of heaven and the pains of hell; but most of all because they offend Thee, my God, Who are all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life. Amen`,
-    tg: `Sa Pangalan ng Ama, at ng Anak, at ng Espiritu Santo. Amen.
+    tg: `Sa Ngalan ng Ama, at ng Anak, at ng Espiritu Santo. Amen.
 
 1. PAGBATI SA PARI
-   Magandang gabi/gabi po, Father.
+   Magandang umaga/hapon/gabi po, Father.
 
 2. PAG-GAWA NG KRUS
    Pari: Pagpahingi sa iyo, anak ko, ng tawad at kapayapaan.
