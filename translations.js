@@ -60,9 +60,7 @@ Priest: May the Lord be in your heart and help you confess your sins with true s
    Lord Jesus, Son of God, have mercy on me, a sinner.
 
    or say:
-   O my God, I am heartily sorry for having offended Thee, and I detest all my sins, because I dread the loss of heaven and the pains of hell; but most of all because they offend Thee, my God, Who are all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life. Amen.
-
-<a href="about.html">About the Developer</a>`,
+   O my God, I am heartily sorry for having offended Thee, and I detest all my sins, because I dread the loss of heaven and the pains of hell; but most of all because they offend Thee, my God, Who are all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life. Amen.`,
     tg: `Sa Ngalan ng Ama, at ng Anak, at ng Espiritu Santo. Amen.
 
 1. PAGBATI SA PARI
@@ -89,9 +87,7 @@ Priest: May the Lord be in your heart and help you confess your sins with true s
    Panginoong Hesus, Anak ng Diyos, maawa ka sa akin, makasalanan.
 
    o kaya:
-   Oh, aking Diyos, buong puso akong nagsisisi sa pagkakamali ko sa Iyo, atay Aking kinamumuhi ang lahat ng aking mga kasalanan dahil sa Iyong makatarungang parusa, at higit sa lahat dahil sa mga ito ay nakakagalit sa Iyo, aking Diyos, na siyang lubos na mabuti at karapat-dapat sa lahat ng aking pagmamahal. Buong matibay akong may hangad, sa tulong ng Iyong grasya, na ikumpisal ang aking mga kasalanan, gumawa ng penance, at baguhin ang aking buhay. Amen.
-
-<a href="about.html">Tungkol sa Developer</a>`,
+   Oh, aking Diyos, buong puso akong nagsisisi sa pagkakamali ko sa Iyo, atay Aking kinamumuhi ang lahat ng aking mga kasalanan dahil sa Iyong makatarungang parusa, at higit sa lahat dahil sa mga ito ay nakakagalit sa Iyo, aking Diyos, na siyang lubos na mabuti at karapat-dapat sa lahat ng aking pagmamahal. Buong matibay akong may hangad, sa tulong ng Iyong grasya, na ikumpisal ang aking mga kasalanan, gumawa ng penance, at baguhin ang aking buhay. Amen.`,
     bs: `Sa Ngalan sa Amahan, ug sa Anak, ug sa Espiritu Santo. Amen.
 
 1. PAG-AMPO SA PARI
@@ -118,19 +114,12 @@ Priest: May the Lord be in your heart and help you confess your sins with true s
    Panginoong Hesus, Anak sa Diyos, dawata kanako, usa ka makasala.
 
    o kaha:
-   Oh, akong Diyos, buotan ko nga nagasisi sa akong mga nakabuhat batok Kanimo, ug ginakGustohan nako ang tanan nga akong mga sala tungod sa Imong matarung nga paghukom, apan labing tanan tungod kay sila mopatin-aw Kanimo, akong Diyos, nga gahum ka sa tanan nga maayo ug derecho sa tanan nga gugma. Gusto nako, uban sa tabang sa Imong grasya, mopess sa akong mga sala, mobuhat og penance, ug usbon ang akong kinabuhi. Amen.
-
-<a href="about.html">Bahin sa Developer</a>`,
+   Oh, akong Diyos, buotan ko nga nagasisi sa akong mga nakabuhat batok Kanimo, ug ginakGustohan nako ang tanan nga akong mga sala tungod sa Imong matarung nga paghukom, apan labing tanan tungod kay sila mopatin-aw Kanimo, akong Diyos, nga gahum ka sa tanan nga maayo ug derecho sa tanan nga gugma. Gusto nako, uban sa tabang sa Imong grasya, mopess sa akong mga sala, mobuhat og penance, ug usbon ang akong kinabuhi. Amen.`,
   },
   confessionGuideCopied: {
     en: "Confession Guide copied!",
     tg: "Nakopya na ang Gabay sa Kumpisal!",
     bs: "Nakopya na ang Gabay sa Kompisal!",
-  },
-  confessionGuideAboutLink: {
-    en: "About the Developer",
-    tg: "Tungkol sa Developer",
-    bs: "Bahin sa Developer",
   },
 };
 
