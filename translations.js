@@ -35,11 +35,10 @@ const categoriesData = [
         },
       },
       {
-{
         id: "s2",
         text: {
           en: "I received Communion unworthily, broke the 1-hour fast or received our Lord in a state of mortal sin.",
-          tg: "Naka-Communion ako nang hindi karapat-dapat—nalabag ko ’yung one-hour fast o kaya naman tumanggap ako habang may mortal sin.",
+          tg: "Naka-Communion ako nang hindi karapat-dapat—nalabag ko 'yung one-hour fast o kaya naman tumanggap ako habang may mortal sin.",
           bs: "Nakalawat ko nga dili angayan—wala ko kapayunot sa one-hour fast o kaha nakadawat ko bisan naay mortal sin.",
         },
       },
@@ -57,14 +56,6 @@ const categoriesData = [
           en: "I entertained serious doubts, engaged in superstitions, or exposed myself to media contrary to my Faith.",
           tg: "Nagpa-dala ako sa duda, horoscope, o mga group at media na kontra sa Faith ko.",
           bs: "Nag-entertain ko og duda, nag-salig sa horoscope, o nitan-aw og mga butang nga kontra sa akong tinuohan.",
-        },
-      },
-      {
-        id: "s5",
-        text: {
-          en: 'I obsessed over getting credit, being noticed, or always needing to be "first."',
-          tg: 'Uhaw ako sa recognition, laging gustong mapansin, o kailangang laging ako ang "una."',
-          bs: "Gusto gyud ko permi mapansin, ma-ganid sa credit, ug gusto permi mag-una.",
         },
       },
       {
@@ -100,51 +91,11 @@ const categoriesData = [
         },
       },
       {
-        id: "s15",
-        text: {
-          en: "I was not generous with my time in carrying out tasks entrusted to me.",
-          tg: "Naging madamot ako sa oras ko sa mga gawaing binigay sa akin.",
-          bs: "Nahimo kong dalo sa akong oras para sa mga buluhaton nga gi-salig nako.",
-        },
-      },
-      {
-        id: "s17",
-        text: {
-          en: "I allowed myself to be gloomy.",
-          tg: "Hinayaan ko ang sarili kong lamunin ng lungkot o negativity.",
-          bs: "Gipasagdan nako akong kaugalingon nga malubog sa kaguol o pagka-badtrip.",
-        },
-      },
-      {
         id: "s18",
         text: {
           en: "I failed to try my best to fulfill the promises and resolutions I made to God.",
           tg: "Hindi ko talaga sineryoso o pinagbutihan na tuparin yung mga pangako at resolution ko sa Diyos.",
           bs: "Wala gyud nako gipaningkamutan og maayo nga matuman akong mga saad ug resolution sa Ginoo.",
-        },
-      },
-      {
-        id: "s19",
-        text: {
-          en: "I failed to carry out a quiet and persevering work of apostolate among my friends.",
-          tg: 'Hindi ako naging matiyaga o "consistent" sa pag-share ng Faith sa mga kaibigan ko sa tahimik na paraan.',
-          bs: "Wala ko naningkamot sa hilom ug mapailubon nga pag-share sa akong Faith sa akong mga migo/miga.",
-        },
-      },
-      {
-        id: "s20",
-        text: {
-          en: "I did not look for opportunities in my work and social life to carry out an effective apostolate.",
-          tg: "Hindi ako naghanap ng chance sa trabaho o sa gimmick para ilapit ang iba sa Diyos.",
-          bs: "Wala ko nangita og mga higayon sa trabaho o sa social life para maka-apostolate sa uban.",
-        },
-      },
-      {
-        id: "s21",
-        text: {
-          en: "I have not tried to attract any friends to the apostolate.",
-          tg: "Hindi ko man lang sinubukang yayain o i-encourage ang mga kaibigan ko sa mga gawaing pang-Simbahan.",
-          bs: "Wala man lang nako gisulayan og hagit o agat akong mga migo/miga sa mga buluhaton sa Simbahan.",
         },
       },
       {
@@ -172,51 +123,11 @@ const categoriesData = [
         },
       },
       {
-        id: "s25",
-        text: {
-          en: "I told a lie under oath.",
-          tg: "Nagsinungaling ako habang nanunumpa (sa harap ng Diyos o sa batas).",
-          bs: "Namakak ko samtang nanumpa (sa atubangan sa Ginoo o sa balaod).",
-        },
-      },
-      {
-        id: "s26",
-        text: {
-          en: "I was not concerned enough about my professional development or the study necessary to be effective in my work.",
-          tg: "Pinabayaan ko ang pag-aaral o pag-improve sa trabaho ko para maging mahusay sa ginagawa ko.",
-          bs: "Wala ko nag-atiman sa akong pag-eskwela o pag-improve sa trabaho para mag-maayo ko sa akong agi.",
-        },
-      },
-      {
-        id: "s27",
-        text: {
-          en: "I broke my private or public vows.",
-          tg: "Sinira ko ang mga binitawan kong panata o sumpa (sa Diyos o sa tao).",
-          bs: "Wala nako tumana ang akong mga saad o panumpa.",
-        },
-      },
-      {
-        id: "s28",
-        text: {
-          en: "I wasted my time.",
-          tg: "Sinayang ko lang ang oras ko sa mga walang kwentang bagay.",
-          bs: "Gi-usik-usikan lang nako akong oras sa walay pulos.",
-        },
-      },
-      {
         id: "s29",
         text: {
           en: "I allowed myself to be distracted during Mass.",
           tg: "Nagpa-distract ako sa Misa—hindi ako nakinig at kung saan-saan ako tumitingin.",
           bs: "Nagpa-distract lang ko sa Misa—wala ko naminaw ug bisan asa lang ko nagtan-aw.",
-        },
-      },
-      {
-        id: "s30",
-        text: {
-          en: "I deceived myself by leaving work for later.",
-          tg: "Niloko ko ang sarili ko; ipinagpabukas ang trabaho imbis na tapusin na agad.",
-          bs: "Gi-atik nako akong kaugalingon; gi-ugma-ugma ang trabaho imbis nga humanon na unta.",
         },
       },
       {
@@ -233,14 +144,6 @@ const categoriesData = [
           en: "I missed Sunday Mass and/or a Holy Day of Obligation (Dec 8, Dec 25 and/or Jan 1).",
           tg: "Lumiban ako sa Misa nung Linggo o nung mga Holy Day (Dec 8, 25, o Jan 1).",
           bs: "Ni-absent ko sa Misa sa Domingo o sa mga Holy Day (Dec 8, 25, o Jan 1).",
-        },
-      },
-      {
-        id: "s33",
-        text: {
-          en: "I misbehaved or maintained improper posture or dress.",
-          tg: "Hindi maayos ang kilos, postura, o suot ko sa loob ng simbahan.",
-          bs: "Dili maayo akong lihok, barog, o sinuotan sa sulod sa simbahan.",
         },
       },
       {
@@ -265,102 +168,6 @@ const categoriesData = [
           en: "I performed work or business that inhibited worship or rest.",
           tg: "Nagtrabaho o nag-negosyo ako na naging hadlang sa pagsimba o pahinga tuwing Linggo.",
           bs: "Nagtrabaho o nag-negosyo ko nga nakababag sa akong pagsimba o pagpahuway sa adlaw sa Ginoo.",
-        },
-      },
-      {
-        id: "s65",
-        text: {
-          en: "I committed impure acts, such as masturbation (alone or with others).",
-          tg: 'Gumawa ako ng malaswang bagay, mag-isa man o may kasama, gaya ng "self-pleasure."',
-          bs: "Naghimo ko og malaw-ay nga mga buhat, sa akong kaugalingon o uban sa uban, sama sa masturbation.",
-        },
-      },
-      {
-        id: "s66",
-        text: {
-          en: "I looked at pornography or watched shows with impure content.",
-          tg: "Nanood ako ng bold (pornography) o mga palais na may mga malalaswang eksena.",
-          bs: "Nagtan-aw ko og bold (pornography) o mga salida nga naay malaw-ay nga sulod.",
-        },
-      },
-      {
-        id: "s67",
-        text: {
-          en: "I took pleasure in entertaining impure thoughts or desires.",
-          tg: "Pinatulan ko at dinamdam ang mga malalaswang isipin o pagnanasa.",
-          bs: "Nagpatuyang ko sa paghuna-huna og mga malaw-ay nga mga butang.",
-        },
-      },
-      {
-        id: "s68",
-        text: {
-          en: "I dressed immodestly or was excessively concerned with my appearance.",
-          tg: "Nagsuot ako ng malaswang damit o naging masyadong banidoso/atado sa hitsura ko.",
-          bs: "Nagsuot ko og mga sinina nga law-ay tan-awon o sobra ra akong pag-atiman sa akong hitsura.",
-        },
-      },
-      {
-        id: "s69",
-        text: {
-          en: "I used vulgar language or listened to impure jokes and stories.",
-          tg: "Nagmura ako o nakinig at nagkwento ng mga malalaswang joke.",
-          bs: "Naggamit ko og mga malaw-ay nga pulong o naminaw ug nag-istorya og mga bastos nga komedya.",
-        },
-      },
-      {
-        id: "s70",
-        text: {
-          en: "I consented to evil desires against the virtue of purity.",
-          tg: "Hinayaan kong malunod ako sa mga maling pagnanasa na labag sa kalinisan.",
-          bs: "Nisugot o nagpadaog ko sa mga dautang tinguha batok sa kaputli.",
-        },
-      },
-      {
-        id: "s71",
-        text: {
-          en: "I engaged in or started impure conversations.",
-          tg: "Nakisali ako o nag-umpisa ng mga bastos na usapan.",
-          bs: "Niapil ko o nag-una-una og mga malaw-ay nga storya.",
-        },
-      },
-      {
-        id: "s72",
-        text: {
-          en: "I entertained or recalled indecent and impure thoughts.",
-          tg: "Inisip ko o binalikan sa alaala ang mga bastos na bagay.",
-          bs: "Naghuna-huna o naghandom ko sa mga malaw-ay nga mga butang.",
-        },
-      },
-      {
-        id: "s74",
-        text: {
-          en: "I maintained friendships that were habitual occasions of sin.",
-          tg: "Nakipag-barkada ako sa mga tawo na nagiging dahilan para magkasala ako palagi.",
-          bs: "Nakig-migo ko sa mga tawo nga permi makapa-angin nako sa pagpakasala.",
-        },
-      },
-      {
-        id: "s75",
-        text: {
-          en: "I neglected modesty and decency in my behavior.",
-          tg: "Pinabayaan ko ang pagiging disente o kagalang-galang sa mga galaw ko.",
-          bs: "Napasagdan nako ang pagka-desente o matinahuron sa akong mga linihokan.",
-        },
-      },
-      {
-        id: "s76",
-        text: {
-          en: "I put myself in occasions of sin, such as being alone in secluded places.",
-          tg: "Sinadya kong ilagay ang sarili ko sa tukso, gaya ng pakikipag-solo sa maling lugar.",
-          bs: "Gibutang nako akong kaugalingon sa tentasyon, sama sa pagpakig-solo sa hilit nga dapit.",
-        },
-      },
-      {
-        id: "s77",
-        text: {
-          en: "I sought out entertainment that served as an occasion of sin.",
-          tg: "Naghanap ako ng mga libangan na alam kong magdadala sa akin sa pagkakasala.",
-          bs: "Nangita ko og kalingawan nga nahimong dalan para makasala ko.",
         },
       },
     ],
@@ -466,7 +273,7 @@ const categoriesData = [
         text: {
           en: "I was disobedient or disrespectful toward my parents.",
           tg: "Naging suwail o bastos ako sa mga magulang ko.",
-          bs: "Nahimo kong dalo o wala nitahod sa akong mga ginikanan.",
+          bs: "Nahimo kong dalo o wala nitahod sa akong mga ginikiran.",
         },
       },
       {
@@ -827,6 +634,198 @@ const categoriesData = [
           en: "I blamed others for my own mistakes to protect my ego.",
           tg: "Nanisi ako ng iba sa sarili kong mali para lang hindi ako mapahiya.",
           bs: "Namasol ko sa uban sa akong kaugalingong sayop para lang dili ma-igo akong ego.",
+        },
+      },
+      {
+        id: "s5",
+        text: {
+          en: 'I obsessed over getting credit, being noticed, or always needing to be "first."',
+          tg: 'Uhaw ako sa recognition, laging gustong mapansin, o kailangang laging ako ang "una."',
+          bs: "Gusto gyud ko permi mapansin, ma-ganid sa credit, ug gusto permi mag-una.",
+        },
+      },
+      {
+        id: "s15",
+        text: {
+          en: "I was not generous with my time in carrying out tasks entrusted to me.",
+          tg: "Naging madamot ako sa oras ko sa mga gawaing binigay sa akin.",
+          bs: "Nahimo kong dalo sa akong oras para sa mga buluhaton nga gi-salig nako.",
+        },
+      },
+      {
+        id: "s17",
+        text: {
+          en: "I allowed myself to be gloomy.",
+          tg: "Hinayaan ko ang sarili kong lamunin ng lungkot o negativity.",
+          bs: "Gipasagdan nako akong kaugalingon nga malubog sa kaguol o pagka-badtrip.",
+        },
+      },
+      {
+        id: "s19",
+        text: {
+          en: "I failed to carry out a quiet and persevering work of apostolate among my friends.",
+          tg: 'Hindi ako naging matiyaga o "consistent" sa pag-share ng Faith sa mga kaibigan ko sa tahimik na paraan.',
+          bs: "Wala ko naningkamot sa hilom ug mapailubon nga pag-share sa akong Faith sa akong mga migo/miga.",
+        },
+      },
+      {
+        id: "s20",
+        text: {
+          en: "I did not look for opportunities in my work and social life to carry out an effective apostolate.",
+          tg: "Hindi ako naghanap ng chance sa trabaho o sa gimmick para ilapit ang iba sa Diyos.",
+          bs: "Wala ko nangita og mga higayon sa trabaho o sa social life para maka-apostolate sa uban.",
+        },
+      },
+      {
+        id: "s21",
+        text: {
+          en: "I have not tried to attract any friends to the apostolate.",
+          tg: "Hindi ko man lang sinubukang yayain o i-encourage ang mga kaibigan ko sa mga gawaing pang-Simbahan.",
+          bs: "Wala man lang nako gisulayan og hagit o agat akong mga migo/miga sa mga buluhaton sa Simbahan.",
+        },
+      },
+      {
+        id: "s25",
+        text: {
+          en: "I told a lie under oath.",
+          tg: "Nagsinungaling ako habang nanunumpa (sa harap ng Diyos o sa batas).",
+          bs: "Namakak ko samtang nanumpa (sa atubangan sa Ginoo o sa balaod).",
+        },
+      },
+      {
+        id: "s26",
+        text: {
+          en: "I was not concerned enough about my professional development or the study necessary to be effective in my work.",
+          tg: "Pinabayaan ko ang pag-aaral o pag-improve sa trabaho ko para maging mahusay sa ginagawa ko.",
+          bs: "Wala ko nag-atiman sa akong pag-eskwela o pag-improve sa trabaho para mag-maayo ko sa akong agi.",
+        },
+      },
+      {
+        id: "s27",
+        text: {
+          en: "I broke my private or public vows.",
+          tg: "Sinira ko ang mga binitawan kong panata o sumpa (sa Diyos o sa tao).",
+          bs: "Wala nako tumana ang akong mga saad o panumpa.",
+        },
+      },
+      {
+        id: "s28",
+        text: {
+          en: "I wasted my time.",
+          tg: "Sinayang ko lang ang oras ko sa mga walang kwentang bagay.",
+          bs: "Gi-usik-usikan lang nako akong oras sa walay pulos.",
+        },
+      },
+      {
+        id: "s30",
+        text: {
+          en: "I deceived myself by leaving work for later.",
+          tg: "Niloko ko ang sarili ko; ipinagpabukas ang trabaho imbis na tapusin na agad.",
+          bs: "Gi-atik nako akong kaugalingon; gi-ugma-ugma ang trabaho imbis nga humanon na unta.",
+        },
+      },
+      {
+        id: "s33",
+        text: {
+          en: "I misbehaved or maintained improper posture or dress.",
+          tg: "Hindi maayos ang kilos, postura, o suot ko sa loob ng simbahan.",
+          bs: "Dili maayo akong lihok, barog, o sinuotan sa sulod sa simbahan.",
+        },
+      },
+      {
+        id: "s65",
+        text: {
+          en: "I committed impure acts, such as masturbation (alone or with others).",
+          tg: 'Gumawa ako ng malaswang bagay, mag-isa man o may kasama, gaya ng "self-pleasure."',
+          bs: "Naghimo ko og malaw-ay nga mga buhat, sa akong kaugalingon o uban sa uban, sama sa masturbation.",
+        },
+      },
+      {
+        id: "s66",
+        text: {
+          en: "I looked at pornography or watched shows with impure content.",
+          tg: "Nanood ako ng bold (pornography) o mga palais na may mga malalaswang eksena.",
+          bs: "Nagtan-aw ko og bold (pornography) o mga salida nga naay malaw-ay nga sulod.",
+        },
+      },
+      {
+        id: "s67",
+        text: {
+          en: "I took pleasure in entertaining impure thoughts or desires.",
+          tg: "Pinatulan ko at dinamdam ang mga malalaswang isipin o pagnanasa.",
+          bs: "Nagpatuyang ko sa paghuna-huna og mga malaw-ay nga mga butang.",
+        },
+      },
+      {
+        id: "s68",
+        text: {
+          en: "I dressed immodestly or was excessively concerned with my appearance.",
+          tg: "Nagsuot ako ng malaswang damit o naging masyadong banidoso/atado sa hitsura ko.",
+          bs: "Nagsuot ko og mga sinina nga law-ay tan-awon o sobra ra akong pag-atiman sa akong hitsura.",
+        },
+      },
+      {
+        id: "s69",
+        text: {
+          en: "I used vulgar language or listened to impure jokes and stories.",
+          tg: "Nagmura ako o nakinig at nagkwento ng mga malalaswang joke.",
+          bs: "Naggamit ko og mga malaw-ay nga pulong o naminaw ug nag-istorya og mga bastos nga komedya.",
+        },
+      },
+      {
+        id: "s70",
+        text: {
+          en: "I consented to evil desires against the virtue of purity.",
+          tg: "Hinayaan kong malunod ako sa mga maling pagnanasa na labag sa kalinisan.",
+          bs: "Nisugot o nagpadaog ko sa mga dautang tinguha batok sa kaputli.",
+        },
+      },
+      {
+        id: "s71",
+        text: {
+          en: "I engaged in or started impure conversations.",
+          tg: "Nakisali ako o nag-umpisa ng mga bastos na usapan.",
+          bs: "Niapil ko o nag-una-una og mga malaw-ay nga storya.",
+        },
+      },
+      {
+        id: "s72",
+        text: {
+          en: "I entertained or recalled indecent and impure thoughts.",
+          tg: "Inisip ko o binalikan sa alaala ang mga bastos na bagay.",
+          bs: "Naghuna-huna o naghandom ko sa mga malaw-ay nga mga butang.",
+        },
+      },
+      {
+        id: "s74",
+        text: {
+          en: "I maintained friendships that were habitual occasions of sin.",
+          tg: "Nakipag-barkada ako sa mga tawo na nagiging dahilan para magkasala ako palagi.",
+          bs: "Nakig-migo ko sa mga tawo nga permi makapa-angin nako sa pagpakasala.",
+        },
+      },
+      {
+        id: "s75",
+        text: {
+          en: "I neglected modesty and decency in my behavior.",
+          tg: "Pinabayaan ko ang pagiging disente o kagalang-galang sa mga galaw ko.",
+          bs: "Napasagdan nako ang pagka-desente o matinahuron sa akong mga linihokan.",
+        },
+      },
+      {
+        id: "s76",
+        text: {
+          en: "I put myself in occasions of sin, such as being alone in secluded places.",
+          tg: "Sinadya kong ilagay ang sarili ko sa tukso, gaya ng pakikipag-solo sa maling lugar.",
+          bs: "Gibutang nako akong kaugalingon sa tentasyon, sama sa pagpakig-solo sa hilit nga dapit.",
+        },
+      },
+      {
+        id: "s77",
+        text: {
+          en: "I sought out entertainment that served as an occasion of sin.",
+          tg: "Naghanap ako ng mga libangan na alam kong magdadala sa akin sa pagkakasala.",
+          bs: "Nangita ko og kalingawan nga nahimong dalan para makasala ko.",
         },
       },
     ],
