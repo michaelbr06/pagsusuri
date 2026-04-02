@@ -29,15 +29,26 @@
             style="margin: 0; font-size: 1.1rem; cursor: pointer;"
           ></h2>
         </a>
-        <select
-          data-action="change->confession#switchLanguage"
-          style="padding: 5px; border-radius: 4px"
-        >
-          <option value="en">English</option>
-          <option value="tg">Tagalog</option>
-          <option value="bs">Bisaya</option>
-        </select>
-        <a href="about.html" style="padding: 5px 10px; color: var(--accent); font-weight: 600; text-decoration: none;">About</a>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <select
+            data-action="change->confession#switchLanguage"
+            style="padding: 5px; border-radius: 4px"
+          >
+            <option value="en">English</option>
+            <option value="tg">Tagalog</option>
+            <option value="bs">Bisaya</option>
+          </select>
+          <button
+            data-action="click->confession#toggleMenu"
+            style="background: none; border: none; font-size: 1.4rem; cursor: pointer; padding: 4px 6px; line-height: 1;"
+            aria-label="Menu"
+          >
+            &#9776;
+          </button>
+        </div>
+        <div data-confession-target="menu" class="menu-dropdown hidden">
+          <a href="about.html">About</a>
+        </div>
       </header>
 
       <main class="container">

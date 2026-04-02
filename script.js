@@ -20,6 +20,7 @@ application.register(
       "confessionGuideContent",
       "confessionGuideBtn",
       "copyListBtn",
+      "menu",
     ];
     static values = { lang: String, selections: Object };
 
@@ -222,6 +223,10 @@ application.register(
       this.confessionGuideViewTarget.classList.add("hidden");
       this.footerTarget.classList.remove("hidden");
       window.scrollTo(0, 0);
+    }
+
+    toggleMenu() {
+      this.menuTarget.classList.toggle("hidden");
     }
   },
 );
