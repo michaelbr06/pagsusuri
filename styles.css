@@ -116,6 +116,30 @@ button {
   margin-top: 20px;
 }
 
+.ai-instructions {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+.ai-instructions + h3 {
+  margin-top: 0;
+}
+textarea[data-confession-target="aiPromptTextarea"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  resize: vertical;
+  background: #fff;
+}
+.btn-secondary {
+  background: var(--primary);
+  color: white;
+}
+
 @media print {
   header,
   .footer-controls,

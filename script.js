@@ -15,6 +15,9 @@ application.register(
       "summaryContent",
       "summaryTitle",
       "footer",
+      "aiPromptView",
+      "aiConfessionList",
+      "aiPromptTextarea",
     ];
     static values = { lang: String, selections: Object };
 
@@ -131,6 +134,82 @@ application.register(
         download: "confession.txt",
       });
       a.click();
+    }
+
+    analyzeWithAI() {
+      const data = translations[this.langValue];
+
+      let listHtml = "<ul>";
+      data.categories.forEach((cat) => {
+        cat.items.forEach((item) => {
+          if (this.selectionsValue[item.id]) {
+            listHtml += `<li>${item.text}</li>`;
+          }
+        });
+      });
+      listHtml += "</ul>";
+      this.aiConfessionListTarget.innerHTML = listHtml;
+
+      let sinsList = "";
+      data.categories.forEach((cat) => {
+        cat.items.forEach((item) => {
+          if (this.selectionsValue[item.id]) {
+            sinsList += `- ${item.text}\n`;
+          }
+        });
+      });
+
+      const prompt = `You are a wise and compassionate Catholic priest helping a penitent examine their conscience before Confession.
+
+Please review the following sins I have committed and:
+1. Group them by theme (e.g., being a faithful Christian, being a dutiful family member, being a good neighbor, professional conduct, etc.)
+2. Identify any patterns or recurring faults that I should reflect on
+3. Provide a brief, gentle encouragement for my spiritual growth
+4. Summarize in a way that will help me make a good confession
+
+My sins:
+${sinsList}
+Please respond with pastoral care and mercy.`;
+
+      this.aiPromptTextareaTarget.value = prompt;
+
+      this.summaryViewTarget.classList.add("hidden");
+      this.aiPromptViewTarget.classList.remove("hidden");
+      window.scrollTo(0, 0);
+    }
+
+    copyPrompt() {
+      const text = this.aiPromptTextareaTarget.value;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Prompt copied! Paste it into your AI chat.");
+      }).catch(() => {
+        this.aiPromptTextareaTarget.select();
+        document.execCommand("copy");
+        alert("Prompt copied! Paste it into your AI chat.");
+      });
+    }
+
+    openAIIncognito() {
+      const prompt = this.aiPromptTextareaTarget.value;
+      navigator.clipboard
+        .writeText(prompt)
+        .then(() => {
+          window.open("https://claude.ai/new", "_blank", "incognito");
+          alert(
+            "1. Incognito window opened\n2. Paste your prompt (Ctrl+V / Cmd+V)\n3. Press Enter to send"
+          );
+        })
+        .catch(() => {
+          alert(
+            "Please copy the prompt manually using the 'Copy to Clipboard' button first."
+          );
+        });
+    }
+
+    backToSummary() {
+      this.aiPromptViewTarget.classList.add("hidden");
+      this.summaryViewTarget.classList.remove("hidden");
+      window.scrollTo(0, 0);
     }
   },
 );
