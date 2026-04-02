@@ -35,11 +35,12 @@ const categoriesData = [
         },
       },
       {
+{
         id: "s2",
         text: {
-          en: "I received Communion unworthily, broke the fast, or treated holy things with disrespect.",
-          tg: "Nag-Communion ako kahit may mabigat na kasalanan, hindi nag-fasting, o walang respeto sa mga sagradong bagay.",
-          bs: "Nag-kalawat ko bisan naay bug-at nga sala, wala nag-puasa, o wala nirespeto sa mga sagradong butang.",
+          en: "I received Communion unworthily, broke the 1-hour fast or received our Lord in a state of mortal sin.",
+          tg: "Naka-Communion ako nang hindi karapat-dapat—nalabag ko ’yung one-hour fast o kaya naman tumanggap ako habang may mortal sin.",
+          bs: "Nakalawat ko nga dili angayan—wala ko kapayunot sa one-hour fast o kaha nakadawat ko bisan naay mortal sin.",
         },
       },
       {
