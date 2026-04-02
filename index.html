@@ -18,10 +18,17 @@
   <body>
     <div data-controller="confession" data-confession-lang-value="en">
       <header>
-        <h2
-          data-confession-target="uiTitle"
-          style="margin: 0; font-size: 1.1rem"
-        ></h2>
+        <a
+          href="#"
+          data-action="click->confession#goHome"
+          style="text-decoration: none; color: inherit; flex: 1;"
+          title="Back to checklist"
+        >
+          <h2
+            data-confession-target="uiTitle"
+            style="margin: 0; font-size: 1.1rem; cursor: pointer;"
+          ></h2>
+        </a>
         <select
           data-action="change->confession#switchLanguage"
           style="padding: 5px; border-radius: 4px"
@@ -41,8 +48,7 @@
           <h2 data-confession-target="summaryTitle"></h2>
           <div data-confession-target="summaryContent"></div>
           <div class="summary-actions">
-            <button data-action="click->confession#analyzeWithAI" class="btn-submit">
-              Prepare for Confession
+            <button data-action="click->confession#renderConfessionGuide" class="btn-submit" data-confession-target="confessionGuideBtn">
             </button>
             <button
               data-action="click->confession#toggleView"
@@ -53,26 +59,12 @@
           </div>
         </div>
 
-        <div data-confession-target="aiPromptView" class="hidden">
-          <h2>Your AI Confession Guide</h2>
-          <p class="ai-instructions">Copy the prompt below and paste it into your preferred AI chat (Claude, Gemini, ChatGPT, etc.).</p>
-
-          <h3>Your Selected Sins</h3>
-          <div data-confession-target="aiConfessionList"></div>
-
-          <h3>AI Prompt</h3>
-          <p class="ai-instructions">You can edit this prompt before copying.</p>
-          <textarea data-confession-target="aiPromptTextarea" rows="12"></textarea>
-
+        <div data-confession-target="confessionGuideView" class="hidden">
+          <h2 data-confession-target="confessionGuideTitle"></h2>
+          <pre data-confession-target="confessionGuideContent" class="guide-text"></pre>
           <div class="summary-actions">
-            <button data-action="click->confession#copyPrompt" class="btn-submit">
-              Copy to Clipboard
-            </button>
-            <button
-              data-action="click->confession#openAIIncognito"
-              class="btn-secondary"
-            >
-              Open AI in Incognito
+            <button data-action="click->confession#copyGuide" class="btn-submit">
+              Copy Guide
             </button>
             <button
               data-action="click->confession#backToSummary"

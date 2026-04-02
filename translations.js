@@ -5,15 +5,113 @@ const uiData = {
     bs: "Pagsusi sa Tanlag",
   },
   prepareBtn: {
-    en: "Prepare Confession",
-    tg: "Ihanda ang Kumpisal",
-    bs: "Andama ang Kompisal",
+    en: "See List",
+    tg: "Tingnan ang Listahan",
+    bs: "Tan-awon ang Listahan",
+  },
+  confessionGuideBtn: {
+    en: "Confession Guide",
+    tg: "Gabay sa Kumpisal",
+    bs: "Gabay sa Kompisal",
   },
   resetBtn: { en: "Reset", tg: "Burahin", bs: "I-reset" },
   summaryTitle: {
     en: "My Confession List",
     tg: "Aking Kumpisal",
     bs: "Akong Kompisal",
+  },
+  confessionGuideTitle: {
+    en: "Confession Guide",
+    tg: "Gabay sa Kumpisal",
+    bs: "Gabay sa Kompisal",
+  },
+  confessionGuide: {
+    en: `In the Name of the Father, and of the Son, and of the Holy Spirit. Amen.
+
+1. GREETING THE PRIEST
+   Good evening/afternoon, Father.
+
+2. SIGN OF THE CROSS
+   Priest: May God give you, my child, pardon and peace.
+   Penitent: Amen.
+
+3. CONFESSION
+   Bless me Father for I have sinned, it has been [state how long since your last confession]. Here are my sins:
+
+{{SINS_LIST}}
+
+   [End your confession with:]
+   "For all these sins, I am sorry." 
+
+4. REMINDERS
+   Listen carefully to the priest's advice and penance.
+   After receiving your penance, proceed to the Act of Contrition.
+
+5. ACT OF CONTRITION
+   
+   Lord Jesus, Son of God, have mercy on me, a sinner.
+
+   or say:
+   O my God, I am heartily sorry for having offended Thee, and I detest all my sins, because I dread the loss of heaven and the pains of hell; but most of all because they offend Thee, my God, Who are all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life. Amen`,
+    tg: `Sa Pangalan ng Ama, at ng Anak, at ng Espiritu Santo. Amen.
+
+1. PAGBATI SA PARI
+   Magandang gabi/gabi po, Father.
+
+2. PAG-GAWA NG KRUS
+   Pari: Pagpahingi sa iyo, anak ko, ng tawad at kapayapaan.
+   Mananalumpati: Amen.
+
+3. PAGKUKUMPISAL
+   Basbasan nyo po ako, Father, sapagka't ako ay nagkasala. [Sabihin kung gaano na katagal ang nakalilipas mula sa huling kumpisal.] Eto po ang aking mga kasalanan:
+
+{{SINS_LIST}}
+
+   [Tapusin ang kumpisal ng:]
+   Pasensiya na po ako sa mga ito at sa lahat ng aking iba pang kasalanan. Buong pangako kong magsisimba ng kumpisal nang regular, iiwasan ang mga pagkakataong makakasal, at babaguhin ang aking buhay. Amen.
+
+4. MGA PAALALA
+   Makinig nang mabuti sa payo at penance ng pari.
+   Matapos tanggapin ang penance, magpatuloy sa Akto ng Pagsisi.
+
+5. AKTO NG PAGSISI
+
+   Panginoong Hesus, Anak ng Diyos, maawa ka sa akin, makasalanan.
+
+   o kaya:
+   Oh, aking Diyos, buong puso akong nagsisisi sa pagkakamali ko sa Iyo, atay Aking kinamumuhi ang lahat ng aking mga kasalanan dahil sa Iyong makatarungang parusa, at higit sa lahat dahil sa mga ito ay nakakagalit sa Iyo, aking Diyos, na siyang lubos na mabuti at karapat-dapat sa lahat ng aking pagmamahal. Buong matibay akong may hangad, sa tulong ng Iyong grasya, na ikumpisal ang aking mga kasalanan, gumawa ng penance, at baguhin ang aking buhay. Amen.`,
+    bs: `Sa Ngalan sa Amahan, ug sa Anak, ug sa Espiritu Santo. Amen.
+
+1. PAG-AMPO SA PARI
+   Maayong gabii/udto, Father.
+
+2. PAGHIMO OG KRUZ
+   Pari: Tugotan nako, anak, nga motaho kanimo og kapasayloan ug kalinaw.
+   Mag-eespiritu: Amen.
+
+3. PAG-ACKNOWLEDGE SA SAKAT
+   Panalanginan mo ako, Father, kay nakasala ko. [Isulti kung unsa ka dugay gikan sa kataposan nga kompisal.] Ania ang akong mga sala:
+
+{{SINS_LIST}}
+
+   [Tapuson ang kumpisal sa:]
+   pasensiya ko sa mga kini ug sa tanan nako nga uban pang mga sala. Sulti ko nga gusto nako nga mobisita sa kompisal kanunay, malikayan ang mga hitabo nga makapagbuhat og sala, ug usbon ang akong kinabuhi. Amen.
+
+4. MGA PAALALA
+   Paminaw og maayo sa tambag sa pari.
+   Human madawat ang penance, padayon sa Pagtoo sa Pagsisi.
+
+5. PAG-AMBIT OG PAGBASOL
+
+   Panginoong Hesus, Anak sa Diyos, dawata kanako, usa ka makasala.
+
+   o kaha:
+   Oh, akong Diyos, buotan ko nga nagasisi sa akong mga nakabuhat batok Kanimo, ug ginakGustohan nako ang tanan nga akong mga sala tungod sa Imong matarung nga paghukom, apan labing tanan tungod kay sila mopatin-aw Kanimo, akong Diyos, nga gahum ka sa tanan nga maayo ug derecho sa tanan nga gugma. Gusto nako, uban sa tabang sa Imong grasya, mopess sa akong mga sala, mobuhat og penance, ug usbon ang akong kinabuhi. Amen.`,
+  },
+  confessionGuideCopied: {
+    en: "Confession Guide copied!",
+    tg: "Nakopya na ang Gabay sa Kumpisal!",
+    bs: "Nakopya na ang Gabay sa Kompisal!",
   },
 };
 

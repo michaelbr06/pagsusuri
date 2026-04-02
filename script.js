@@ -15,9 +15,10 @@ application.register(
       "summaryContent",
       "summaryTitle",
       "footer",
-      "aiPromptView",
-      "aiConfessionList",
-      "aiPromptTextarea",
+      "confessionGuideView",
+      "confessionGuideTitle",
+      "confessionGuideContent",
+      "confessionGuideBtn",
     ];
     static values = { lang: String, selections: Object };
 
@@ -30,8 +31,14 @@ application.register(
     switchLanguage(event) {
       this.langValue = event.target.value;
       this.render();
+      const data = translations[this.langValue];
       if (!this.summaryViewTarget.classList.contains("hidden")) {
+        this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
         this.renderSummary();
+      }
+      if (!this.confessionGuideViewTarget.classList.contains("hidden")) {
+        this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
+        this.confessionGuideTitleTarget.innerText = data.ui.confessionGuideTitle;
       }
     }
 
@@ -102,6 +109,7 @@ application.register(
 
       if (count === 0) return alert("Select at least one first.");
 
+      this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
       this.renderSummary();
       this.toggleView();
     }
@@ -136,79 +144,62 @@ application.register(
       a.click();
     }
 
-    analyzeWithAI() {
+    renderConfessionGuide() {
       const data = translations[this.langValue];
-
-      let listHtml = "<ul>";
-      data.categories.forEach((cat) => {
-        cat.items.forEach((item) => {
-          if (this.selectionsValue[item.id]) {
-            listHtml += `<li>${item.text}</li>`;
-          }
-        });
-      });
-      listHtml += "</ul>";
-      this.aiConfessionListTarget.innerHTML = listHtml;
+      const ui = data.ui;
 
       let sinsList = "";
       data.categories.forEach((cat) => {
         cat.items.forEach((item) => {
           if (this.selectionsValue[item.id]) {
-            sinsList += `- ${item.text}\n`;
+            sinsList += `   - ${item.text}\n`;
           }
         });
       });
 
-      const prompt = `You are a wise and compassionate Catholic priest helping a penitent examine their conscience before Confession.
+      const guide = ui.confessionGuide.replace(
+        "{{SINS_LIST}}",
+        sinsList || "   (None)",
+      );
 
-Please review the following sins I have committed and:
-1. Group them by theme (e.g., being a faithful Christian, being a dutiful family member, being a good neighbor, professional conduct, etc.)
-2. Identify any patterns or recurring faults that I should reflect on
-3. Provide a brief, gentle encouragement for my spiritual growth
-4. Summarize in a way that will help me make a good confession
-
-My sins:
-${sinsList}
-Please respond with pastoral care and mercy.`;
-
-      this.aiPromptTextareaTarget.value = prompt;
+      this.confessionGuideTitleTarget.innerText = ui.confessionGuideTitle;
+      this.confessionGuideContentTarget.innerText = guide;
 
       this.summaryViewTarget.classList.add("hidden");
-      this.aiPromptViewTarget.classList.remove("hidden");
+      this.confessionGuideViewTarget.classList.remove("hidden");
       window.scrollTo(0, 0);
     }
 
-    copyPrompt() {
-      const text = this.aiPromptTextareaTarget.value;
-      navigator.clipboard.writeText(text).then(() => {
-        alert("Prompt copied! Paste it into your AI chat.");
-      }).catch(() => {
-        this.aiPromptTextareaTarget.select();
-        document.execCommand("copy");
-        alert("Prompt copied! Paste it into your AI chat.");
-      });
-    }
-
-    openAIIncognito() {
-      const prompt = this.aiPromptTextareaTarget.value;
+    copyGuide() {
+      const text = this.confessionGuideContentTarget.innerText;
+      const msg = translations[this.langValue].ui.confessionGuideCopied;
       navigator.clipboard
-        .writeText(prompt)
+        .writeText(text)
         .then(() => {
-          window.open("https://claude.ai/new", "_blank", "incognito");
-          alert(
-            "1. Incognito window opened\n2. Paste your prompt (Ctrl+V / Cmd+V)\n3. Press Enter to send"
-          );
+          alert(msg);
         })
         .catch(() => {
-          alert(
-            "Please copy the prompt manually using the 'Copy to Clipboard' button first."
-          );
+          const range = document.createRange();
+          range.selectNodeContents(this.confessionGuideContentTarget);
+          const sel = window.getSelection();
+          sel.removeAllRanges();
+          sel.addRange(range);
+          document.execCommand("copy");
+          alert(msg);
         });
     }
 
     backToSummary() {
-      this.aiPromptViewTarget.classList.add("hidden");
+      this.confessionGuideViewTarget.classList.add("hidden");
       this.summaryViewTarget.classList.remove("hidden");
+      window.scrollTo(0, 0);
+    }
+
+    goHome() {
+      this.checklistViewTarget.classList.remove("hidden");
+      this.summaryViewTarget.classList.add("hidden");
+      this.confessionGuideViewTarget.classList.add("hidden");
+      this.footerTarget.classList.remove("hidden");
       window.scrollTo(0, 0);
     }
   },

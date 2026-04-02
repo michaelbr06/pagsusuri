@@ -124,20 +124,15 @@ button {
 .ai-instructions + h3 {
   margin-top: 0;
 }
-textarea[data-confession-target="aiPromptTextarea"] {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 12px;
-  border: 2px solid var(--primary);
-  border-radius: 8px;
+.guide-text {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  white-space: pre-wrap;
   font-family: inherit;
-  font-size: 0.9rem;
-  resize: vertical;
-  background: #fff;
-}
-.btn-secondary {
-  background: var(--primary);
-  color: white;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 @media print {
