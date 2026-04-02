@@ -19,7 +19,7 @@ const uiData = {
 
 const categoriesData = [
   {
-    id: "god",
+    id: "God",
     header: {
       en: "1st Commandment — Love God with all your heart, with all your soul, and with all your mind.",
       tg: "Ika-1 Utos — Ibigin mo ang Diyos nang buong pusong, buong kaluluwa, at buong isipan.",
