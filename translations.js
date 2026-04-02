@@ -107,14 +107,6 @@ const categoriesData = [
         },
       },
       {
-        id: "s16",
-        text: {
-          en: "I allowed myself to be dominated by gloominess.",
-          tg: "Hinayaan ko ang sarili kong lamunin ng lungkot o sobrang pagka-negatibo.",
-          bs: "Gipasagdan nako akong kaugalingon nga malubog sa kaguol o pagka-badtrip.",
-        },
-      },
-      {
         id: "s17",
         text: {
           en: "I allowed myself to be gloomy.",
