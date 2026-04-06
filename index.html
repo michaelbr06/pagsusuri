@@ -18,36 +18,37 @@
   <body>
     <div data-controller="confession" data-confession-lang-value="en">
       <header>
-        <a
-          href="#"
-          data-action="click->confession#goHome"
-          style="text-decoration: none; color: inherit; flex: 1;"
-          title="Back to checklist"
-        >
-          <h2
-            data-confession-target="uiTitle"
-            style="margin: 0; font-size: 1.1rem; cursor: pointer;"
-          ></h2>
-        </a>
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <select
-            data-action="change->confession#switchLanguage"
-            style="padding: 5px; border-radius: 4px"
+        <div class="header-content">
+          <a
+            href="#"
+            data-action="click->confession#goHome"
+            title="Back to checklist"
           >
-            <option value="en">English</option>
-            <option value="tg">Tagalog</option>
-            <option value="bs">Bisaya</option>
-          </select>
-          <button
-            data-action="click->confession#toggleMenu"
-            style="background: none; border: none; font-size: 1.4rem; cursor: pointer; padding: 4px 6px; line-height: 1;"
-            aria-label="Menu"
-          >
-            &#9776;
-          </button>
-        </div>
-        <div data-confession-target="menu" class="menu-dropdown hidden">
-          <a href="about.html">About</a>
+            <h2
+              data-confession-target="uiTitle"
+              style="margin: 0; font-size: 1.1rem; cursor: pointer;"
+            ></h2>
+          </a>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <select
+              data-action="change->confession#switchLanguage"
+              style="padding: 5px; border-radius: 4px"
+            >
+              <option value="en">English</option>
+              <option value="tg">Tagalog</option>
+              <option value="bs">Bisaya</option>
+            </select>
+            <button
+              data-action="click->confession#toggleMenu"
+              style="background: none; border: none; font-size: 1.4rem; cursor: pointer; padding: 4px 6px; line-height: 1;"
+              aria-label="Menu"
+            >
+              &#9776;
+            </button>
+          </div>
+          <div data-confession-target="menu" class="menu-dropdown hidden">
+            <a href="about.html">About</a>
+          </div>
         </div>
       </header>
 
@@ -91,16 +92,18 @@
       </main>
 
       <footer class="footer-controls" data-confession-target="footer">
-        <button
-          data-action="click->confession#reset"
-          data-confession-target="resetBtn"
-          class="btn-reset"
-        ></button>
-        <button
-          data-action="click->confession#submit"
-          data-confession-target="submitBtn"
-          class="btn-submit"
-        ></button>
+        <div class="footer-inner">
+          <button
+            data-action="click->confession#reset"
+            data-confession-target="resetBtn"
+            class="btn-reset"
+          ></button>
+          <button
+            data-action="click->confession#submit"
+            data-confession-target="submitBtn"
+            class="btn-submit"
+          ></button>
+        </div>
       </footer>
     </div>
 
