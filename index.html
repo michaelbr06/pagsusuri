@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examination of Conscience</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@hotwired/stimulus/dist/stimulus.umd.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./sw.js")
+          .then(() => console.log("Offline mode enabled."));
+      }
+    </script>
+  </head>
+  <body>
+    <div data-controller="confession" data-confession-lang-value="en">
+      <header>
+        <div class="header-content">
+          <a
+            href="#"
+            data-action="click->confession#goHome"
+            title="Back to checklist"
+          >
+            <h2
+              data-confession-target="uiTitle"
+              style="margin: 0; font-size: 1.1rem; cursor: pointer;"
+            ></h2>
+          </a>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <select
+              data-action="change->confession#switchLanguage"
+              style="padding: 5px; border-radius: 4px"
+            >
+              <option value="en">English</option>
+              <option value="tg">Tagalog</option>
+              <option value="bs">Bisaya</option>
+            </select>
+            <button
+              data-action="click->confession#toggleMenu"
+              style="background: none; border: none; font-size: 1.4rem; cursor: pointer; padding: 4px 6px; line-height: 1;"
+              aria-label="Menu"
+            >
+              &#9776;
+            </button>
+          </div>
+          <div data-confession-target="menu" class="menu-dropdown hidden">
+            <a href="about.html">About</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div data-confession-target="checklistView">
+          <div data-confession-target="container"></div>
+        </div>
+
+        <div data-confession-target="summaryView" class="hidden">
+          <h2 data-confession-target="summaryTitle"></h2>
+          <div data-confession-target="summaryContent"></div>
+          <div class="summary-actions">
+            <button data-action="click->confession#renderConfessionGuide" class="btn-submit" data-confession-target="confessionGuideBtn">
+            </button>
+            <button data-action="click->confession#copyList" class="btn-secondary" data-confession-target="copyListBtn">
+            </button>
+            <button
+              data-action="click->confession#toggleView"
+              class="btn-reset"
+            >
+              Edit List
+            </button>
+          </div>
+        </div>
+
+        <div data-confession-target="confessionGuideView" class="hidden">
+          <h2 data-confession-target="confessionGuideTitle"></h2>
+          <pre data-confession-target="confessionGuideContent" class="guide-text"></pre>
+          <div class="summary-actions">
+            <button data-action="click->confession#copyGuide" class="btn-submit">
+              Copy Guide
+            </button>
+            <button
+              data-action="click->confession#backToSummary"
+              class="btn-reset"
+            >
+              Back
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer-controls" data-confession-target="footer">
+        <div class="footer-inner">
+          <button
+            data-action="click->confession#reset"
+            data-confession-target="resetBtn"
+            class="btn-reset"
+          ></button>
+          <button
+            data-action="click->confession#submit"
+            data-confession-target="submitBtn"
+            class="btn-submit"
+          ></button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
