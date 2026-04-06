@@ -1,2 +1,3 @@
-# pagsusuri
-An examination of Conscience SPA for Filipinos. 
+# Pagsusuri
+
+An examination of Conscience SPA for Catholic Filipinos.
