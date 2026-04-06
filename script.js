@@ -210,9 +210,18 @@ application.register(
         });
       });
       const msg = data.ui.copyListCopied;
+      
       navigator.clipboard.writeText(text).then(() => {
         alert(msg);
       }).catch(() => {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
         alert(msg);
       });
     }
