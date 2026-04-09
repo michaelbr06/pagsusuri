@@ -30,6 +30,19 @@ application.register(
       this.render();
     }
 
+    showToast(message) {
+      const existing = document.querySelector(".toast");
+      if (existing) existing.remove();
+      const toast = document.createElement("div");
+      toast.className = "toast";
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.classList.add("fade-out");
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+
     switchLanguage(event) {
       this.langValue = event.target.value;
       this.render();
@@ -41,7 +54,8 @@ application.register(
       }
       if (!this.confessionGuideViewTarget.classList.contains("hidden")) {
         this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
-        this.confessionGuideTitleTarget.innerText = data.ui.confessionGuideTitle;
+        this.confessionGuideTitleTarget.innerText =
+          data.ui.confessionGuideTitle;
       }
     }
 
@@ -110,7 +124,7 @@ application.register(
         });
       });
 
-      if (count === 0) return alert("Select at least one first.");
+      if (count === 0) return this.showToast("Select at least one first.");
 
       this.confessionGuideBtnTarget.innerText = data.ui.confessionGuideBtn;
       this.copyListBtnTarget.innerText = data.ui.copyListBtn;
@@ -129,6 +143,7 @@ application.register(
       if (confirm("Clear all selections?")) {
         this.selectionsValue = {};
         this.render();
+        this.goHome();
       }
     }
 
@@ -180,7 +195,7 @@ application.register(
       navigator.clipboard
         .writeText(text)
         .then(() => {
-          alert(msg);
+          this.showToast(msg);
         })
         .catch(() => {
           const range = document.createRange();
@@ -189,7 +204,7 @@ application.register(
           sel.removeAllRanges();
           sel.addRange(range);
           document.execCommand("copy");
-          alert(msg);
+          this.showToast(msg);
         });
     }
 
@@ -210,20 +225,23 @@ application.register(
         });
       });
       const msg = data.ui.copyListCopied;
-      
-      navigator.clipboard.writeText(text).then(() => {
-        alert(msg);
-      }).catch(() => {
-        const textarea = document.createElement("textarea");
-        textarea.value = text;
-        textarea.style.position = "fixed";
-        textarea.style.opacity = "0";
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand("copy");
-        document.body.removeChild(textarea);
-        alert(msg);
-      });
+
+      navigator.clipboard
+        .writeText(text)
+        .then(() => {
+          this.showToast(msg);
+        })
+        .catch(() => {
+          const textarea = document.createElement("textarea");
+          textarea.value = text;
+          textarea.style.position = "fixed";
+          textarea.style.opacity = "0";
+          document.body.appendChild(textarea);
+          textarea.select();
+          document.execCommand("copy");
+          document.body.removeChild(textarea);
+          this.showToast(msg);
+        });
     }
 
     goHome() {
