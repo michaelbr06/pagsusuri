@@ -139,7 +139,7 @@ application.register(
       window.scrollTo(0, 0);
     }
 
-    reset() {
+    refresh() {
       this.selectionsValue = {};
       this.render();
       this.goHome();
