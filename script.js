@@ -140,11 +140,9 @@ application.register(
     }
 
     reset() {
-      if (confirm("Clear all selections?")) {
-        this.selectionsValue = {};
-        this.render();
-        this.goHome();
-      }
+      this.selectionsValue = {};
+      this.render();
+      this.goHome();
     }
 
     download() {
