@@ -140,9 +140,7 @@ application.register(
     }
 
     refresh() {
-      this.selectionsValue = {};
-      this.render();
-      this.goHome();
+      window.location.reload();
     }
 
     download() {
